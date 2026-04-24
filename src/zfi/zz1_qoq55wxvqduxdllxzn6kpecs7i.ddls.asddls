@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_CD4021573EFC'
+
+extend view FIN_SUBVAL_JOURNALENTRYITEM with ZZ1_QOQ55WXVQDUXDLLXZN6KPECS7I
+  
+{ 
+  _Extension.ZZ1_VEHICLENO_COB as ZZ1_VEHICLENO_COB
+}

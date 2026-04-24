@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_2717B595A1E5'
+
+extend view FAC_DART_Z3_GL_LEDGER_ITEM with ZZ1_PX4HCX67HH2H23APP3OK5EVIYU
+  
+{ 
+  ZZ1_HOLMANPO_COB as ZZ1_HOLMANPO_COB
+}

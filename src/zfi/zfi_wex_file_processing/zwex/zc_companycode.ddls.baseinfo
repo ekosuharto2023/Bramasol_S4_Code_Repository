@@ -1,0 +1,17 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "I_ADDRESS",
+      "I_ADDRESSEMAILADDRESS",
+      "I_COMPANYCODE"
+    ],
+    "ASSOCIATED": [
+      "I_ADDRESS",
+      "I_COMPANYCODEHIERNODE",
+      "I_ORGADDRESSDEFAULTRPRSTN"
+    ],
+    "BASE": [
+      "I_COMPANYCODE"
+    ]
+  }
+}

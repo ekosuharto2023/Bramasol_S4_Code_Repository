@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_F46D3FA048D2'
+
+extend view I_REALTIMERPTDFINDATAENHCD with ZZ1_5BIBFMJ7IU4SCBYEO6LSKHBKCU
+  
+{ 
+  _Extension.ZZ1_VEHICLENO_COB as ZZ1_VEHICLENO_COB
+}

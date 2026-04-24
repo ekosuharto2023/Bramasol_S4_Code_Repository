@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_63FFF4B3602D'
+
+extend view I_GLACCOUNTYEARTODATEBALANCEC with ZZ1_UZDKDUVRAG4ILUXQ2EWH2PEHSE
+  
+{ 
+  _Extension.ZZ1_SERIALNO_COB as ZZ1_SERIALNO_COB
+}

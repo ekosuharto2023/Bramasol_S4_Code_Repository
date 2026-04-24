@@ -1,0 +1,11 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "P_PAYMENTPROPOSALITEM",
+      "REGUH"
+    ],
+    "ASSOCIATED": [
+      "P_PAYMENTPROPOSALITEM"
+    ]
+  }
+}

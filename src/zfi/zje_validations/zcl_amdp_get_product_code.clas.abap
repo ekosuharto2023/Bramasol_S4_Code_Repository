@@ -1,0 +1,35 @@
+CLASS zcl_amdp_get_product_code DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC.
+
+  PUBLIC SECTION.
+    INTERFACES if_amdp_marker_hdb.
+
+    CLASS-METHODS GET_PRODUCT_CODE
+      FOR TABLE FUNCTION  ZTF_AMDP_GET_PRODUCT_CODE.
+ENDCLASS.
+
+CLASS zcl_amdp_get_product_code IMPLEMENTATION.
+
+  METHOD GET_PRODUCT_CODE
+    BY DATABASE FUNCTION FOR HDB
+    LANGUAGE SQLSCRIPT
+    OPTIONS READ-ONLY.
+
+    DECLARE lt_result TABLE ( PRODUCT_CODE nvarchar(4) );
+
+  DECLARE lv_dynfrom nvarchar(500);
+  lv_dynfrom =
+    'SELECT PRODUCT_CODE ' ||
+    'FROM "BRIM_CM_PRODUCT_CODE" ';
+
+    EXECUTE IMMEDIATE :lv_dynfrom INTO lt_result;
+
+    RETURN
+      SELECT PRODUCT_CODE
+      FROM :lt_result;
+
+  ENDMETHOD.
+ENDCLASS.
+

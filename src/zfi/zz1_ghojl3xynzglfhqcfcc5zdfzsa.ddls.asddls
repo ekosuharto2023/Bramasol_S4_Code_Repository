@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_A1E2B27CD0EB'
+
+extend view C_REALTIMERPTDFINDATA with ZZ1_GHOJL3XYNZGLFHQCFCC5ZDFZSA
+  
+{ 
+  RealTimeRptdFinData.ZZ1_THIRDPARTYREF_COB as ZZ1_THIRDPARTYREF_COB
+}

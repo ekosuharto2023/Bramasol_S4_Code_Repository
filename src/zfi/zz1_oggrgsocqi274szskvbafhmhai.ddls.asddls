@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_46EEDF7997C0'
+
+extend view A_SUPPLIERINVOICEITEMGLACCT with ZZ1_OGGRGSOCQI274SZSKVBAFHMHAI
+  
+{ 
+  _ItemGLAcctExtension.ZZ1_CLIENTCODE_COB as ZZ1_CLIENTCODE_COB
+}

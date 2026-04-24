@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_D8403EC5178A'
+
+extend view I_GLACCTBALANCECOMPRNCUBE with ZZ1_DEUSRP27CAWABA55JCNO22MVY4
+  
+{ 
+  _Extension.ZZ1_PRODUCTCODE_COB as ZZ1_PRODUCTCODE_COB
+}

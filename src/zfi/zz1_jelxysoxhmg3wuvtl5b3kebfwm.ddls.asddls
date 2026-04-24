@@ -1,0 +1,5 @@
+extend view entity C_COSTCENTERCLASSICCOMMITMENT with 
+  
+{ 
+  _Extension.ZZ1_THIRDPARTYREF_COB as ZZ1_THIRDPARTYREF_COB
+}

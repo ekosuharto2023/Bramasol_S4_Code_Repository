@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_54FF7FBE0D0A'
+
+extend view FINAC_SELECTION with ZZ1_EM6V4D27SIKBUP55KKMGHWA6BQ
+  
+{ 
+  I_GLACCOUNTLINEITEM.ZZ1_ICNNO_COB as ZZ1_ICNNO_COB
+}

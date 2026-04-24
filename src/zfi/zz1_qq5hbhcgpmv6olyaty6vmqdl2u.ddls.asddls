@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_F99D3449D846'
+
+extend view C_DIRECTACTIVITYALLOCATIONITEM with ZZ1_QQ5HBHCGPMV6OLYATY6VMQDL2U
+  
+{ 
+  _DrctActivityAllocationItemTP.ZZ1_TRANSACTIONKEY_COB as ZZ1_TRANSACTIONKEY_COB
+}

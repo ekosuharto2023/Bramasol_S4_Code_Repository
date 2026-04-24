@@ -1,0 +1,21 @@
+managed implementation in class zbp_i_fi_payment_meth unique;
+strict ( 2 );
+
+define behavior for ZI_FI_PAYMENT_METH //alias <alias_name>
+persistent table zfi_payment_meth
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+
+  mapping for zfi_payment_meth {
+  Country           = country;
+  PaymentType       = payment_type;
+  InvoiceCategory   = invoice_category;
+  PaymentMethod     = payment_method;
+  PaymentMethodName = payment_method_name;
+}
+}

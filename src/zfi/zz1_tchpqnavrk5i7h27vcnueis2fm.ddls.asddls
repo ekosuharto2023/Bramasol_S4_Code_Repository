@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_60233D40BD11'
+
+extend view P_GLACCOUNTBALANCE with ZZ1_TCHPQNAVRK5I7H27VCNUEIS2FM
+  
+{ 
+  _Extension.ZZ1_THIRDPARTYREF_COB as ZZ1_THIRDPARTYREF_COB
+}

@@ -1,0 +1,23 @@
+managed implementation in class zbp_i_fi_map_cos_rules unique;
+strict ( 2 );
+
+define behavior for ZI_FI_MAP_COS_RULES //alias <alias_name>
+persistent table zmap_cos_rules
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  mapping for zmap_cos_rules
+    {
+      ProductCode = productcode;
+      SourceGl    = source_gl;
+      MarkupGl    = markup_gl;
+      SalesGl     = sales_gl;
+      CosGl       = cos_gl;
+      ValidFrom   = validfrom;
+      ValidTo     = validto;
+    }
+}

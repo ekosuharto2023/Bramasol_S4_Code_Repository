@@ -1,0 +1,42 @@
+managed implementation in class zbp_i_fi_rev_document unique;
+strict ( 2 );
+
+define behavior for ZI_FI_REV_DOCUMENT //alias <alias_name>
+persistent table zfi_rev_doc_ref
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+
+ mapping for zfi_rev_doc_ref
+{
+  Bukrs                     = bukrs;
+  Belnr                     = belnr;
+  Gjahr                     = gjahr;
+  Docln                     = docln;
+
+  Blart                     = blart;
+  Zz1TransactionkeyCob      = zz1_transactionkey_cob;
+  Zz1ClientcodeCob          = zz1_clientcode_cob;
+  Zz1VehiclenoCob           = zz1_vehicleno_cob;
+  Zz1InvoicenumberCob       = zz1_invoicenumber_cob;
+
+  Lifnr                     = lifnr;
+  Waers                     = waers;
+  Wrbtr                     = wrbtr;
+
+  Augbl                     = augbl;
+  Augdt                     = augdt;
+  doc_type                  = doc_type;
+  Status                    = status;
+
+  ManuallyCorrectedMessage  = manually_corrected_message;
+  BrimErrorMessage          = brim_error_message;
+  SentToBrimTs              = sent_to_brim_ts;
+  LastStatusUpdateTs        = last_status_update_ts;
+}
+
+}

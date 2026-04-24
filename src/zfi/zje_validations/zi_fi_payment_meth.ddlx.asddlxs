@@ -1,0 +1,78 @@
+@Metadata.layer: #CORE
+@UI: {
+  headerInfo: {
+    typeNamePlural: 'Payment Methods',
+    typeName: 'Payment Method',
+    title: { value: 'PaymentMethodName' }
+  }
+}
+annotate view ZI_FI_PAYMENT_METH
+with
+{
+  ///////////////////////////////////////////////////////////////////////////
+  // Facets (Object Page)
+  ///////////////////////////////////////////////////////////////////////////
+  @UI.facet: [
+    {
+      id:       'Overview',
+      purpose:  #STANDARD,
+      type:     #IDENTIFICATION_REFERENCE,
+      label:    'Overview',
+      position: 10
+    },
+    {
+      id:       'Details',
+      purpose:  #STANDARD,
+      type:     #COLLECTION,
+      label:    'Details',
+      position: 20
+    }
+  ]
+
+  ///////////////////////////////////////////////////////////////////////////
+  // Field-level UI annotations
+  ///////////////////////////////////////////////////////////////////////////
+
+  @UI: {
+    lineItem:      [ { position: 10 } ],
+    identification:[ { label: 'Country', position: 10 } ],
+    fieldGroup:    [ { label: 'Key : Identification', qualifier: 'FG:Header', position: 10 } ]
+  }
+  @Search.defaultSearchElement: true
+  @Consumption.valueHelpDefinition: [{ entity: { name: 'I_CountryVH', element: 'Country' } }]
+  Country;
+
+  @UI: {
+    lineItem:      [ { position: 20 } ],
+    identification:[ { label: 'Payment Type', position: 20 } ],
+    fieldGroup:    [ { label: 'Key : Identification', qualifier: 'FG:Header', position: 20 } ]
+  }
+  @Search.defaultSearchElement: true
+  PaymentType;
+
+  @UI: {
+    lineItem:      [ { position: 30 } ],
+    identification:[ { label: 'Invoice Category', position: 30 } ],
+    fieldGroup:    [ { label: 'Key : Identification', qualifier: 'FG:Header', position: 30 } ]
+  }
+  @Search.defaultSearchElement: true
+  @Consumption.valueHelpDefinition: [{ entity: { name: 'ZC_INVOICE_CATEGORY', element: 'InvoiceCategory' } }]
+  InvoiceCategory;
+
+  @UI: {
+    lineItem:      [ { position: 40 } ],
+    identification:[ { label: 'Payment Method', position: 40 } ],
+    fieldGroup:    [ { label: 'Key : Identification', qualifier: 'FG:Header', position: 40 } ]
+  }
+  @Search.defaultSearchElement: true
+  @Consumption.valueHelpDefinition: [{ entity: { name: 'I_PaymentMethodInCountryVH', element: 'PaymentMethod' } }]
+  PaymentMethod;
+
+  @UI: {
+    lineItem:      [ { position: 50 } ],
+    identification:[ { label: 'Payment Method Name', position: 50 } ],
+    fieldGroup:    [ { label: 'Details', qualifier: 'FG:Details', position: 10 } ]
+  }
+  PaymentMethodName;
+
+}

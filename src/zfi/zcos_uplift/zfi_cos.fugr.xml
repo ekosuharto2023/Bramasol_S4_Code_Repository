@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Cost of Sales</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZFI_COSTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZFI_COS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZFI_COS_DOCUMENT_POST</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>qRFC Worker for Cost of Sales Auto Posting</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IS_DOCUMENTHEADER</PARAMETER>
+       <TYP>BAPIACHE09</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>IT_ACCOUNTGL</PARAMETER>
+       <DBSTRUCT>BAPIACGL09</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>IT_CURRENCYAMOUNT</PARAMETER>
+       <DBSTRUCT>BAPIACCR09</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>IT_EXTENSION2</PARAMETER>
+       <DBSTRUCT>BAPIPAREX</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IS_DOCUMENTHEADER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Header</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_ACCOUNTGL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>G/L account item</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_CURRENCYAMOUNT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Currency Items</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_EXTENSION2</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Ref. structure for BAPI parameter ExtensionIn/ExtensionOut</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

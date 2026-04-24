@@ -1,0 +1,4 @@
+@EndUserText.label: 'Invoice Category for House Bank'
+define service ZUI_INV_CAT_BANK {
+  expose ZI_FI_INV_CAT_BANK;
+}

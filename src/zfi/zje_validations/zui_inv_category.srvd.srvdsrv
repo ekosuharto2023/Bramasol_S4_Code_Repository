@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition for Invoice Category'
+define service ZUI_INV_CATEGORY {
+  expose ZI_FI_INVOICE_CATEGORY;
+}

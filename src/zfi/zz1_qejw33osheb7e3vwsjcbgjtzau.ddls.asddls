@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_91C77A5E407D'
+
+extend view C_PRODUCTPROFITABILITYQUERY with ZZ1_QEJW33OSHEB7E3VWSJCBGJTZAU
+  
+{ 
+  I_ProfitabilityCube.ZZ1_PRICINGELEMENT_COB as ZZ1_PRICINGELEMENT_COB
+}

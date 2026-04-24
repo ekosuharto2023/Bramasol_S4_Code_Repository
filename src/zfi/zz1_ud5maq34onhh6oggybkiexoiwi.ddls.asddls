@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_6CD83037BC27'
+
+extend view I_PROFITABILITYCUBE with ZZ1_UD5MAQ34ONHH6OGGYBKIEXOIWI
+  
+{ 
+  _Extension.ZZ1_TRANSACTIONKEY_COB as ZZ1_TRANSACTIONKEY_COB
+}

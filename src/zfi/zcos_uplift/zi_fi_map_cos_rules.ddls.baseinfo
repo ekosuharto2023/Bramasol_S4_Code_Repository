@@ -1,0 +1,7 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "ZMAP_COS_RULES"
+    ]
+  }
+}

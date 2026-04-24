@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_3647AADA859E'
+
+extend view I_ACCOUNTINGDOCUMENTJOURNAL with ZZ1_TUNO5CDSZKMQCCYG65KDEXCPKQ
+  
+{ 
+  _Extension.ZZ1_HOLMANPO_COB as ZZ1_HOLMANPO_COB
+}

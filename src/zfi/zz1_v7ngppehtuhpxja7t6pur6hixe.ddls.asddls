@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_E9D92B1A1802'
+
+extend view C_MLLINEITEM with ZZ1_V7NGPPEHTUHPXJA7T6PUR6HIXE
+  
+{ 
+  ZZ1_TRANSACTIONKEY_COB as ZZ1_TRANSACTIONKEY_COB
+}

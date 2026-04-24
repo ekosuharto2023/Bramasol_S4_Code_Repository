@@ -1,0 +1,5 @@
+CLASS zbp_i_fi_payment_meth DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zi_fi_payment_meth.
+ENDCLASS.
+
+CLASS zbp_i_fi_payment_meth IMPLEMENTATION.
+ENDCLASS.

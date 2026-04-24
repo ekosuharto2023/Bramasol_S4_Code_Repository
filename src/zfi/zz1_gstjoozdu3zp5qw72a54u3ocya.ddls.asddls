@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_0C359724F39D'
+
+extend view C_PNLPLNACTLCMTMTJRNLENTRITMQ with ZZ1_GSTJOOZDU3ZP5QW72A54U3OCYA
+  
+{ 
+  I_ActualPlanJournalEntryItem.ZZ1_TRANSACTIONKEY_PAC as ZZ1_TRANSACTIONKEY_PAC
+}

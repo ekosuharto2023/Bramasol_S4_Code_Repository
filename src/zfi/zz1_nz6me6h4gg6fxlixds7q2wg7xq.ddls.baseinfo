@@ -1,0 +1,8 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "E_FINPLANITEMSTAGINGAREA",
+      "ACDOCP_DATA"
+    ]
+  }
+}

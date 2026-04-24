@@ -1,0 +1,11 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "E_MATERIALDOCUMENTITEM",
+      "I_AUGMENTEDGOODSMOVEMENT",
+      "I_MATERIAL",
+      "I_PURCHASEORDER",
+      "I_SALESORDER"
+    ]
+  }
+}

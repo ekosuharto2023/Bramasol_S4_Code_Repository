@@ -1,0 +1,20 @@
+managed implementation in class zbp_i_appaylimit unique;
+strict ( 2 );
+
+define behavior for ZI_APPAYLIMIT //alias <alias_name>
+persistent table ZTB_APPAYLIMIT
+lock master
+authorization master ( instance )
+etag master LastChangedDate
+{
+  // Field control
+  field ( mandatory ) CompanyCode, PaymentMethod;
+  field ( readonly ) CreationDate, CreatedBy, LastChangedDate, LastChangedBy;
+
+  create;
+  update;
+  delete;
+
+  mapping for ztb_appaylimit {CompanyCode = bukrs; PaymentMethod  = zlsch; InvoiceLimit = invoice_limit; CreatedBy = created_by;
+                              CreationDate = created_on; LastChangedBy = last_changed_by; LastChangedDate = last_changed_on;}
+}

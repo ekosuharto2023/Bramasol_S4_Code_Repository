@@ -1,0 +1,4 @@
+extend abstract entity D_SUPLRINVCCREATEGLITEMP with 
+{ 
+ ZZ1_CLIENTCODE_COB : ZZ1_CLIENTCODE;
+}

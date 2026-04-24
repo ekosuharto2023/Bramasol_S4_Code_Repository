@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_0D21B4AD67BF'
+
+extend view E_FINPLANITEMSTAGINGAREA with ZZ1_APAKFUTYKAAADERJD7XQ5YEEKY
+  
+{ 
+  Persistence.ZZ1_CLIENTCODE_COB as ZZ1_CLIENTCODE_COB
+}

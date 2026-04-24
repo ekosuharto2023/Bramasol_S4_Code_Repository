@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_0FEC11960323'
+
+extend view E_ARPOSTGRULEACTNGL with ZZ1_TJZRQHYV5JFWT4RRC3E555X3XA
+  
+{ 
+  Persistence.ZZ1_TRANSACTIONKEY_COB as ZZ1_TRANSACTIONKEY_COB
+}

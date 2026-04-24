@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_557367CC98A9'
+
+extend view I_MATRIXCNSLDTNFOUNDATION_2 with ZZ1_YAARXTGPLJLUKOXFK7Z4EN2G4U
+  
+{ 
+  _Extension.ZZ1_CLIENTCODE_CJE as ZZ1_CLIENTCODE_CJE
+}

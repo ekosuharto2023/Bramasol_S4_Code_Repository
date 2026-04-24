@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_04EB5CC4B79A'
+
+extend view C_MARGANLYSPRODANDSRVCQ with ZZ1_2VCAOBD4YNCI3JLYZNMZKIX6XA
+  
+{ 
+  I_MargAnlysProdAndSrvcCube.ZZ1_THIRDPARTYREF_COB as ZZ1_THIRDPARTYREF_COB
+}

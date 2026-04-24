@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_538800CA5627'
+
+extend view C_PNLPLNACTLCMTMTJRNLENTRITMQ with ZZ1_LJ5QWVWNL2BEVUX7TN4YXOOZMM
+  
+{ 
+  I_ActualPlanJournalEntryItem.ZZ1_PRODUCTCODE_PAC as ZZ1_PRODUCTCODE_PAC
+}

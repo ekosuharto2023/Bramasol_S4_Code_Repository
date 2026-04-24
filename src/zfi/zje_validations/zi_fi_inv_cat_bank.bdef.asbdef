@@ -1,0 +1,23 @@
+
+managed implementation in class zbp_i_fi_inv_cat_bank unique;
+strict ( 2 );
+
+define behavior for ZI_FI_INV_CAT_BANK
+persistent table zfi_inv_cat_bank
+lock master
+authorization master ( instance )
+
+{
+  field ( mandatory ) Company_Code, InvoiceCategory, payment_method;
+  create;
+  update;
+  delete;
+  mapping for zfi_inv_cat_bank
+    {
+      company_code       = company_code;
+      InvoiceCategory    = invoice_category;
+      payment_method     = payment_method;
+      house_bank         = house_bank;
+      house_bank_account = house_bank_account;
+    }
+}

@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service defination for GLAccount'
+define service ZUI_GLACCOUNT {
+  expose ZI_FI_GLACCOUNT;
+}

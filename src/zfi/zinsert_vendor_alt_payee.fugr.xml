@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Vendor alt payee</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZINSERT_VENDOR_ALT_PAYEETOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZINSERT_VENDOR_ALT_PAYEE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZINSERT_VENDOR_ALT_PAYEE</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Vendor alt payee</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>SUPPLIER_ACCOUNT</PARAMETER>
+       <TYP>LIFNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>COMPANY_CODE</PARAMETER>
+       <TYP>BUKRS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>VENDOR_PERMITTED</PARAMETER>
+       <TYP>EMPFK</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ERROR_FLAG</PARAMETER>
+       <TYP>CHAR1</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ERROR_MESSAGE</PARAMETER>
+       <TYP>CHAR40</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>VENDOR_NOT_FOUND</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>SUPPLIER_ACCOUNT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Account Number of Supplier</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>COMPANY_CODE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Company Code</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>VENDOR_PERMITTED</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Vendor Permitted as Payee</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR_FLAG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Single-Character Flag</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR_MESSAGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Character field of length 40</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>VENDOR_NOT_FOUND</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZINSERT_VENDOR_ALT_PAYEE_GET</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Vendor alt payee</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>SUPPLIER_ACCOUNT</PARAMETER>
+       <TYP>LIFNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>COMPANY_CODE</PARAMETER>
+       <TYP>BUKRS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>VENDOR_PERMITTED</PARAMETER>
+       <TYP>EMPFK</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ERROR_FLAG</PARAMETER>
+       <TYP>CHAR1</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ERROR_MESSAGE</PARAMETER>
+       <TYP>CHAR40</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>VENDOR_NOT_FOUND</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>SUPPLIER_ACCOUNT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Account Number of Supplier</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>COMPANY_CODE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Company Code</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>VENDOR_PERMITTED</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Vendor Permitted as Payee</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR_FLAG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Single-Character Flag</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR_MESSAGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Character field of length 40</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>VENDOR_NOT_FOUND</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

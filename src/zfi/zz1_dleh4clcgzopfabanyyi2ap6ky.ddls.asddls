@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_CB3B007F0C06'
+
+extend view I_GLACCTBALANCECUBE with ZZ1_DLEH4CLCGZOPFABANYYI2AP6KY
+  
+{ 
+  _Extension.ZZ1_PRICINGELEMENT_COB as ZZ1_PRICINGELEMENT_COB
+}

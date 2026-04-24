@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_0B222FD277EB'
+
+extend view E_ALLOCATIONRUNRESULT with ZZ1_HR7KHWBQS2NJWW3HI5623R6XNU
+  
+{ 
+  Persistence.ZZ1_THIRDPARTYREF_COB as ZZ1_THIRDPARTYREF_COB
+}

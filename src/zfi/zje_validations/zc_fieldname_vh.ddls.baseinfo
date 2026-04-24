@@ -1,0 +1,7 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "ZFI_COB_VAL_TAB"
+    ]
+  }
+}

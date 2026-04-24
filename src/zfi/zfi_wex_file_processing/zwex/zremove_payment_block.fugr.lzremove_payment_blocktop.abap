@@ -1,0 +1,3 @@
+FUNCTION-POOL ZREMOVE_PAYMENT_BLOCK.        "MESSAGE-ID ..
+
+* INCLUDE LZREMOVE_PAYMENT_BLOCKD...         " Local class definition

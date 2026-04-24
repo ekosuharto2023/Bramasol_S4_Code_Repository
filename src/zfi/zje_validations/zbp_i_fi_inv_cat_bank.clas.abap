@@ -1,0 +1,5 @@
+CLASS zbp_i_fi_inv_cat_bank DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zi_fi_inv_cat_bank.
+ENDCLASS.
+
+CLASS zbp_i_fi_inv_cat_bank IMPLEMENTATION.
+ENDCLASS.

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SUSH" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <HEAD>
+    <NAME>ZFI_COS_DOCUMENT_POST</NAME>
+    <TYPE>RF</TYPE>
+    <DISPLAY_NAME>ZFI_COS_DOCUMENT_POST</DISPLAY_NAME>
+    <STEXT>qRFC Worker for Cost of Sales Auto Posting</STEXT>
+   </HEAD>
+   <USOBX>
+    <USOBX>
+     <NAME>ZFI_COS_DOCUMENT_POST</NAME>
+     <TYPE>RF</TYPE>
+     <OBJECT>S_RFC</OBJECT>
+     <OKFLAG>X</OKFLAG>
+    </USOBX>
+   </USOBX>
+  </asx:values>
+ </asx:abap>
+</abapGit>

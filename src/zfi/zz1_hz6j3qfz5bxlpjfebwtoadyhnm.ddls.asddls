@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_B0C43E0FB44E'
+
+extend view I_AVGDAILYBALGROUPREPORTING with ZZ1_HZ6J3QFZ5BXLPJFEBWTOADYHNM
+  
+{ 
+  _Extension.ZZ1_SERIALNO_COB as ZZ1_SERIALNO_COB
+}

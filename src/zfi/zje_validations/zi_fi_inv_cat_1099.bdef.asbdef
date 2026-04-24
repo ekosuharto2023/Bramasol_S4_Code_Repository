@@ -1,0 +1,16 @@
+managed implementation in class zbp_i_fi_inv_cat_1099 unique;
+strict ( 2 );
+
+define behavior for ZI_FI_INV_CAT_1099 //alias <alias_name>
+persistent table zfi_inv_cat_1099
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+
+  field ( mandatory ) Company_Code, invoice_category;
+
+  create;
+  update;
+  delete;
+}

@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_A1DB1E8E68F9'
+
+extend view C_DIRECTACTIVITYALLOCATIONITEM with ZZ1_HMJR3E4OGEOIKBV643EIMTIFUM
+  
+{ 
+  _DrctActivityAllocationItemTP.ZZ1_THIRDPARTYREF_COB as ZZ1_THIRDPARTYREF_COB
+}

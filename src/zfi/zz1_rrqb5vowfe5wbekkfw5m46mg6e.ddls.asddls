@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_7979096EFB93'
+
+extend view C_MATLDOCFORPRINTGOODSMVT with ZZ1_RRQB5VOWFE5WBEKKFW5M46MG6E
+  
+{ 
+  _PrintExtension.ZZ1_THIRDPARTYREF_COB as ZZ1_THIRDPARTYREF_COB
+}

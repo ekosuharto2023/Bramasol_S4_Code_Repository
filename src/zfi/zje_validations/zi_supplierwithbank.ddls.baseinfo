@@ -1,0 +1,9 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "I_BUSINESSPARTNERBANK",
+      "I_SUPPLIER",
+      "I_SUPPLIERCOMPANY"
+    ]
+  }
+}

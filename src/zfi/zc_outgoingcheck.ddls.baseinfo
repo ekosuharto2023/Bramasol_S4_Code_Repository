@@ -1,0 +1,17 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "I_OUTGOINGCHECK"
+    ],
+    "ASSOCIATED": [
+      "I_APVOIDREASONTEXT",
+      "I_COMPANYCODE",
+      "I_COUNTRY",
+      "I_HOUSEBANK",
+      "I_SUPPLIER"
+    ],
+    "BASE": [
+      "I_OUTGOINGCHECK"
+    ]
+  }
+}

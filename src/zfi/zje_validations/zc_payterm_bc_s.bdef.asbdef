@@ -1,0 +1,34 @@
+projection;
+strict;
+use draft;
+
+define behavior for ZC_PAYTERM_BC_S alias ZFI_PAYTERM_BC_S
+
+{
+   use create;
+  use update;
+  use delete;
+
+  use action Edit;
+  use action Activate;
+  use action Discard;
+  use action Resume;
+  use action Prepare;
+  use action SelectCustomizingTransptReq;
+
+  use association _ZFI_PAYMENT_TERM_BC { create; with draft; }
+}
+
+define behavior for ZC_FI_PAYMENT_TERM_BC alias ZFI_PAYMENT_TERM_BC
+
+{
+  //use update;
+  //use create;
+  use update;
+  use delete;
+  use action Deprecate;
+  use action Invalidate;
+  use action CopyZFI_PAYMENT_TERM_BC;
+
+  use association _ZFI_PAYTERM_BC_S { with draft; }
+}

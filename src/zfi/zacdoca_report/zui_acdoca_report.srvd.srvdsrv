@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service defination for ACDOCA Report'
+define service ZUI_ACDOCA_REPORT {
+  expose ZI_FI_ACDOCA_REPORT;
+}

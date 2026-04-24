@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_451B6684E92A'
+
+extend view C_FINANCIALSTATEMENTKPI with ZZ1_FXEI37DTADOMBAVOTIVLIE3J2Y
+  
+{ 
+  ZZ1_HOLMANPO_ASC as ZZ1_HOLMANPO_ASC
+}

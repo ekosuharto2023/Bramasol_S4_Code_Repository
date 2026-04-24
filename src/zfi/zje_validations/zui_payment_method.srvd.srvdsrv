@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service defination for payment method'
+define service ZUI_PAYMENT_METHOD {
+  expose ZI_FI_PAYMENT_METH;
+}

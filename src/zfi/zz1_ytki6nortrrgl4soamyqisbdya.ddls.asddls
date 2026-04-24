@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_A2F95EBBD2AD'
+
+extend view I_MATRIXCNSLDTNFNDNFORYTDMODE with ZZ1_YTKI6NORTRRGL4SOAMYQISBDYA
+  
+{ 
+  _Extension.ZZ1_HOLMANPO_CJE as ZZ1_HOLMANPO_CJE
+}

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZZ1_3UL6KV7I4B2TZGL26KA5D2SMIA</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZZ1_3UL6KV7I4B2TZGL26KA5D2SMIA</OBJ_NAME_M>
+     <HASH_ID>52461BF8EB64D31A437C22BF588D3007C5CF7F6F</HASH_ID>
+     <ID>&lt;groupOrAttributeGroup&gt; ZZ1_3UL6KV7I4B2TZGL26KA5D2SMIA_ZZ1_HOLMANPO http://sap.com/Basis/CustomFields/Generated/ZZ1_ http://sap.com/Basis/CustomFields/Generated/ZZ1_</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>groupOrAttributeGroup</IFR_TYPE>
+     <IFR_NAME>ZZ1_3UL6KV7I4B2TZGL26KA5D2SMIA_ZZ1_HOLMANPO</IFR_NAME>
+     <IFR_NSPCE>http://sap.com/Basis/CustomFields/Generated/ZZ1_</IFR_NSPCE>
+     <IFR_GNSPCE>http://sap.com/Basis/CustomFields/Generated/ZZ1_</IFR_GNSPCE>
+     <GEN_VERS>0001</GEN_VERS>
+     <PREFIX>ZZ1_</PREFIX>
+     <CATEGORY>ifmtypeenh</CATEGORY>
+     <GEN_APPL>BACKENDMDR</GEN_APPL>
+     <ENH_NAME>MaterialDocumentReqItem</ENH_NAME>
+     <ENH_NSPCE>http://sap.com/xi/APPL/Global2</ENH_NSPCE>
+     <X-ML_NSPCE>http://SAPCustomFields.com/ZZ1_</X-ML_NSPCE>
+     <X-ML_NAME>ZZ1_3UL6KV7I4B2TZGL26KA5D2SMIA_ZZ1_HOLMANPO</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZZ1_3UL6KV7I4B2TZGL26KA5D2SMIA</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>ZZ1_HOLMANPO_COB</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>ZZ1_HOLMANPO_COB</OBJ_NAME2>
+     <ID>&lt;element&gt; ZZ1_HOLMANPO &lt;groupOrAttributeGroup&gt; ZZ1_3UL6KV7I4B2TZGL26KA5D2SMIA_ZZ1_HOLMANPO http://sap.com/Basis/CustomFields/Generated/ZZ1_ http://sap.com/Basis/CustomFields/Generated/ZZ1_</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>ZZ1_HOLMANPO</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_QUALIF>X</IFR_QUALIF>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_MAXLEN>20</IFR_MAXLEN>
+     <IFR_NILLABLE>X</IFR_NILLABLE>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>ZZ1_HOLMANPO_COB</R3_NAME>
+     <R3_DATATYP>CHAR</R3_DATATYP>
+     <R3_LENGTH>000020</R3_LENGTH>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZZ1_3UL6KV7I4B2TZGL26KA5D2SMIA</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZZ1_3UL6KV7I4B2TZGL26KA5D2SMIA</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZZ1_3UL6KV7I4B2TZGL26KA5D2SMIA</OBJ_NAME2>
+     <ID>&lt;groupOrAttributeGroup&gt; ZZ1_3UL6KV7I4B2TZGL26KA5D2SMIA_ZZ1_HOLMANPO http://sap.com/Basis/CustomFields/Generated/ZZ1_ http://sap.com/Basis/CustomFields/Generated/ZZ1_</ID>
+     <IFR_TYPE>groupOrAttributeGroup</IFR_TYPE>
+     <IFR_NAME>ZZ1_3UL6KV7I4B2TZGL26KA5D2SMIA_ZZ1_HOLMANPO</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZZ1_3UL6KV7I4B2TZGL26KA5D2SMIA</R3_NAME>
+     <R3_TEXT>ZZ1_HOLMANPO</R3_TEXT>
+     <CATEGORY>ifmtypeenh</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_DF322DBE1037'
+
+extend view E_PURREQNACCTASSGMT with ZZ1_LYAS5EEVWBOVYZ5LQWD5Y33EQU
+  
+{ 
+  Persistence.ZZ1_THIRDPARTYREF_COB as ZZ1_THIRDPARTYREF_COB
+}

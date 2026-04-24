@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service defination for parking log'
+define service ZUI_PARKING_LOG {
+  expose ZI_FI_PARKING_LOG;
+}

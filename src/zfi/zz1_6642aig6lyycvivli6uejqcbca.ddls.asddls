@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_8353439B99F6'
+
+extend view A_FINPLANITEMSTAGINGAREA with ZZ1_6642AIG6LYYCVIVLI6UEJQCBCA
+  
+{ 
+  _Extension.ZZ1_THIRDPARTYREF_COB as ZZ1_THIRDPARTYREF_COB
+}

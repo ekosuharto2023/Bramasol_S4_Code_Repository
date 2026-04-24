@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_7AF86CA12A44'
+
+extend view C_OPLACCTGDOCITEMCORRESPNC with ZZ1_4FY2Z63FQOTCMJAWJ7DT3L7EJQ
+  
+{ 
+  _Extension.ZZ1_CLIENTCODE_COB as ZZ1_CLIENTCODE_COB
+}

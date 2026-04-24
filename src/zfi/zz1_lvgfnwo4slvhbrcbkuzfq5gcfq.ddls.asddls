@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_EF4850B489A0'
+
+extend view E_ALLOCATIONRUNRESULT with ZZ1_LVGFNWO4SLVHBRCBKUZFQ5GCFQ
+  
+{ 
+  Persistence.ZZ1_TRANSACTIONKEY_COB as ZZ1_TRANSACTIONKEY_COB
+}

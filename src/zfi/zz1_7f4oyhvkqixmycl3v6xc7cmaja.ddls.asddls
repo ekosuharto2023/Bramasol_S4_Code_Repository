@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_F83D652D052C'
+
+extend view E_ARPOSTGRULEACTNGL with ZZ1_7F4OYHVKQIXMYCL3V6XC7CMAJA
+  
+{ 
+  Persistence.ZZ1_PRICINGELEMENT_COB as ZZ1_PRICINGELEMENT_COB
+}

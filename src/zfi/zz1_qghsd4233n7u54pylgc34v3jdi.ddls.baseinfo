@@ -1,0 +1,7 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "ESH_N_INC_INVOICE"
+    ]
+  }
+}

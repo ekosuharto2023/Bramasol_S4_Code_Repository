@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_24BDDD51584A'
+
+extend view C_FUNCTIONALAREAPLANACTQ2801 with ZZ1_KLXSMDNY63KNZV3A4C6KFDRMHQ
+  
+{ 
+  ZZ1_SOURCE_APC as ZZ1_SOURCE_APC
+}

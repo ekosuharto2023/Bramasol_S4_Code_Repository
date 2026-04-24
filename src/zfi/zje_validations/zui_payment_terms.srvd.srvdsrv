@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service defination for payment terms'
+define service ZUI_PAYMENT_TERMS {
+  expose ZI_FI_PAYMENT_TERM;
+}

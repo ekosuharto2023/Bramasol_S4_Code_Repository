@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_C1D543965EFF'
+
+extend view C_SERVICEORDERQRY2401 with ZZ1_Y3POQ6LD32S67SDSHUQ2FZDDTU
+  
+{ 
+  ZZ1_CLIENTCODE_COB as ZZ1_CLIENTCODE_COB
+}

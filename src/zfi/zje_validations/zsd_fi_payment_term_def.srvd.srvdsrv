@@ -1,0 +1,4 @@
+define service ZSD_FI_PAYMENT_TERM_DEF {
+  expose ZC_PAYTERM_BC_S as ZFI_PAYTERM_BC_S;
+  expose ZC_FI_PAYMENT_TERM_BC as ZFI_PAYMENT_TERM_BC;
+}

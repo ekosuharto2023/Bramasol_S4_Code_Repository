@@ -1,0 +1,2 @@
+CLASS lcl_fi_reversal_sync_test DEFINITION DEFERRED.
+CLASS zcl_fi_reversal_sync DEFINITION LOCAL FRIENDS lcl_fi_reversal_sync_test.

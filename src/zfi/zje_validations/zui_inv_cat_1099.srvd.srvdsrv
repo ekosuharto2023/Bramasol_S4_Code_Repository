@@ -1,0 +1,4 @@
+@EndUserText.label: 'Invoice category for 1099'
+define service ZUI_INV_CAT_1099 {
+  expose ZI_FI_INV_CAT_1099;
+}

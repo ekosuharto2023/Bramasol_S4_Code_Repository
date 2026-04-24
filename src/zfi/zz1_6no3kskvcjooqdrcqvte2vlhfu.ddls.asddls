@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_E2E0DC46D074'
+
+extend view C_PROFITABILITY_Q0002 with ZZ1_6NO3KSKVCJOOQDRCQVTE2VLHFU
+  
+{ 
+  ZZ1_VEHICLENO_COB as ZZ1_VEHICLENO_COB
+}

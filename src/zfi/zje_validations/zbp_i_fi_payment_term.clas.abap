@@ -1,0 +1,5 @@
+CLASS zbp_i_fi_payment_term DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zi_fi_payment_term.
+ENDCLASS.
+
+CLASS zbp_i_fi_payment_term IMPLEMENTATION.
+ENDCLASS.

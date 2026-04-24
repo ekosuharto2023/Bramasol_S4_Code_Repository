@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_5AA5B7D2374E'
+
+extend view C_FINPLANNINGDELETEITEM with ZZ1_CXBJSZGEDC4EJJ2S6NLPOI4J4Q
+  
+{ 
+  _Extension.ZZ1_CLIENTCODE_COB as ZZ1_CLIENTCODE_COB
+}

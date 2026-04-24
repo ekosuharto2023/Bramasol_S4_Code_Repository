@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_7F11BB3797CD'
+
+extend view E_ALLOCATIONRUNRESULT with ZZ1_QZDB7BMW443HZLK5AEVM6KYJ54
+  
+{ 
+  Persistence.ZZ1_PRICINGELEMENT_COB as ZZ1_PRICINGELEMENT_COB
+}

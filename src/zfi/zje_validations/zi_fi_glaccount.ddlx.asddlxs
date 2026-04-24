@@ -1,0 +1,59 @@
+@Metadata.layer: #CORE
+@UI: {
+  headerInfo: {
+    typeNamePlural: 'GL Accounts',
+    typeName: 'GL Account',
+    title: { value: 'InfiniumGl' }
+  }
+}
+annotate view ZI_FI_GLACCOUNT
+with
+{
+  ///////////////////////////////////////////////////////////////////////////
+  // Facets (Object Page)
+  ///////////////////////////////////////////////////////////////////////////
+  @UI.facet: [
+    {
+      id:       'Overview',
+      purpose:  #STANDARD,
+      type:     #IDENTIFICATION_REFERENCE,
+      label:    'Overview',
+      position: 10
+    },
+    {
+      id:       'Details',
+      purpose:  #STANDARD,
+      type:     #COLLECTION,
+      label:    'Details',
+      position: 20
+    }
+  ]
+
+  ///////////////////////////////////////////////////////////////////////////
+  // Field-level UI annotations
+  ///////////////////////////////////////////////////////////////////////////
+
+  @UI: {
+    lineItem:      [ { position: 10 } ],
+    identification:[ { label: 'Infinium GL', position: 10 } ],
+    fieldGroup:    [ { label: 'Identification', qualifier: 'FG:Header', position: 10 } ]
+  }
+  InfiniumGl;
+
+  @UI: {
+    lineItem:      [ { position: 20 } ],
+    identification:[ { label: 'SAP GL', position: 20 } ],
+    fieldGroup:    [ { label: 'Identification', qualifier: 'FG:Header', position: 20 } ]
+  }
+  @Search.defaultSearchElement: true
+  @Consumption.valueHelpDefinition: [{ entity: { name: 'I_GLAccountStdVH', element: 'GLAccount' } }]
+  SapGl;
+
+  @UI: {
+    lineItem:      [ { position: 30 } ],
+    identification:[ { label: 'Company Code', position: 30 } ],
+    fieldGroup:    [ { label: 'Identification', qualifier: 'FG:Header', position: 30 } ]
+  }
+  companycode;
+
+}

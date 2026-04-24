@@ -1,0 +1,12 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "I_COMPANYCODE",
+      "ZP_PAYTPROPOSALITEMAGGREGATION"
+    ],
+    "ASSOCIATED": [
+      "I_COMPANYCODE",
+      "I_CURRENCY"
+    ]
+  }
+}

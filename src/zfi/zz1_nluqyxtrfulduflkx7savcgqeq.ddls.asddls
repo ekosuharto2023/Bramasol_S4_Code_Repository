@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_765BC910CEC9'
+
+extend view A_OPENINGBALANCE with ZZ1_NLUQYXTRFULDUFLKX7SAVCGQEQ
+  
+{ 
+  ZZ1_CLIENTCODE_COB as ZZ1_CLIENTCODE_COB
+}

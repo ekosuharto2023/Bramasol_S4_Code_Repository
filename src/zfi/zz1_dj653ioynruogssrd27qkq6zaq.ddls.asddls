@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_77DD4EF4C6D3'
+
+extend view C_PNLPLNACTLCMTMTJRNLENTRITMQ with ZZ1_DJ653IOYNRUOGSSRD27QKQ6ZAQ
+  
+{ 
+  I_ActualPlanJournalEntryItem.ZZ1_PRICINGELEMENT_PAC as ZZ1_PRICINGELEMENT_PAC
+}

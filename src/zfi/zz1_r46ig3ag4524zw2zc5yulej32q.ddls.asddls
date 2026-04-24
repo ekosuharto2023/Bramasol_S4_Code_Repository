@@ -1,0 +1,5 @@
+extend view entity R_DRCTACTYALLOCATIONITEMDRAFT with 
+  
+{ 
+  _Extension.ZZ1_TRANSACTIONKEY_COB as ZZ1_TRANSACTIONKEY_COB
+}

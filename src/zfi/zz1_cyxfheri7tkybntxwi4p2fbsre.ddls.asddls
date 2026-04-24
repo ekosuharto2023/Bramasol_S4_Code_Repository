@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_3EBAD76C9AC4'
+
+extend view C_GOODSMOVEMENTQUERY with ZZ1_CYXFHERI7TKYBNTXWI4P2FBSRE
+  
+{ 
+  ZZ1_HOLMANPO_COB as ZZ1_HOLMANPO_COB
+}

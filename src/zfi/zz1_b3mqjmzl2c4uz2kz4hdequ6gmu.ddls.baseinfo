@@ -1,0 +1,10 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "C_SUPINVLISTHEADERINT",
+      "I_COMPANYCODE",
+      "I_SUPPLIER",
+      "I_SUPPLIERINVOICEBLKDDISTINCT"
+    ]
+  }
+}

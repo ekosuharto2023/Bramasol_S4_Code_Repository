@@ -1,0 +1,5 @@
+extend view entity C_COSTCENTERCLASSICCOMMITMENT with 
+  
+{ 
+  _Extension.ZZ1_PRICINGELEMENT_COB as ZZ1_PRICINGELEMENT_COB
+}

@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_4A25EF2E5881'
+
+extend view I_COMPACTJOURNAL with ZZ1_4EEDDNUCXDM4KLRR3I4XF2HQVE
+  
+{ 
+  _Extension.ZZ1_TRANSACTIONKEY_COB as ZZ1_TRANSACTIONKEY_COB
+}

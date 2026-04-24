@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_5C2009BFC84F'
+
+extend view C_COSTCENTERPLANACTQ2001 with ZZ1_K2CGELIMYFR36VCKYSHGSGZ73A
+  
+{ 
+  ZZ1_SERIALNO_APC as ZZ1_SERIALNO_APC
+}

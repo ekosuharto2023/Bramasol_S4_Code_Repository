@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_8B2116961A9D'
+
+extend view C_ALLOCATIONRUNRESULTITEM with ZZ1_OJJEXWY2JHP5RXXXADKCNK4DXI
+  
+{ 
+  _Extension.ZZ1_VEHICLENO_COB as ZZ1_VEHICLENO_COB
+}

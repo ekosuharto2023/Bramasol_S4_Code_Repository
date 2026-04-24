@@ -1,0 +1,8 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "E_FINPLANNINGDELETEITEM",
+      "I_FINPLANNINGDELETEITEM"
+    ]
+  }
+}

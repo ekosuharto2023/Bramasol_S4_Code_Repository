@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_57D232B91ED3'
+
+extend view I_MATERIALLEDGERCUBE_LIT with ZZ1_Q2UZY3UD5OUDZQLKTU4HSR3PXU
+  
+{ 
+  _Extension.ZZ1_PRICINGELEMENT_COB as ZZ1_PRICINGELEMENT_COB
+}

@@ -1,0 +1,31 @@
+managed implementation in class zbp_i_fi_parking_log unique;
+strict ( 2 );
+
+define behavior for ZI_FI_PARKING_LOG //alias <alias_name>
+persistent table zfi_parklog
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+
+   mapping for zfi_parklog {
+  AccountingDoc = belnr;
+  CompanyCode = bukrs;
+  FiscalYear = gjahr;
+  IsJeOrSupplInv = trans_type;
+  TransactionKey = transaction_key;
+  MessageId = msgid;
+  MessageNumber = msgno;
+  Msgv1 = msgv1;
+  Msgv2 = msgv2;
+  Msgv3 = msgv3;
+  Msgv4 = msgv4;
+  MessageText = msg_text;
+  CreatedDate = erdat;
+  CreatedTime = erzet;
+  CreatedBy = ernam;
+}
+}

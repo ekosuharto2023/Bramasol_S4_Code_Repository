@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_597C3673E680'
+
+extend view I_GLACCOUNTLINEITEMRAWDATA with ZZ1_IMCMIZJPB6WUSCKCZGH3OMP3KQ
+  
+{ 
+  _Extension.ZZ1_VEHICLENO_COB as ZZ1_VEHICLENO_COB
+}

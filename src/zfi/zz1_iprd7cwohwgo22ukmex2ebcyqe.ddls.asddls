@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_6D0B0D81AF12'
+
+extend view C_RRBSALESPRICINGDYNAMICITEM with ZZ1_IPRD7CWOHWGO22UKMEX2EBCYQE
+  
+{ 
+  _JournalEntryItemExtension.ZZ1_PRICINGELEMENT_COB as ZZ1_PRICINGELEMENT_COB
+}

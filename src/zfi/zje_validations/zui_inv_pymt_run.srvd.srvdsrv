@@ -1,0 +1,4 @@
+@EndUserText.label: 'Invoice Payment Run UI'
+define service ZUI_INV_PYMT_RUN {
+  expose ZI_FI_INV_PYMT_RUN;
+}

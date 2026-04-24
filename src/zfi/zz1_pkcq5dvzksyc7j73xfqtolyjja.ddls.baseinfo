@@ -1,0 +1,7 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "MNGJEITEM_DRAFT"
+    ]
+  }
+}

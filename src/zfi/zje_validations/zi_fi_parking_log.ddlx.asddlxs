@@ -1,0 +1,112 @@
+@Metadata.layer: #CORE
+@UI: {
+  headerInfo: {
+    typeNamePlural: 'Parking Logs',
+    typeName: 'Parking Log',
+    title: { value: 'TransactionKey' }
+  }
+}
+annotate view ZI_FI_PARKING_LOG
+with
+{
+  ///////////////////////////////////////////////////////////////////////////
+  // Facets (Object Page)
+  ///////////////////////////////////////////////////////////////////////////
+  @UI.facet: [
+    {
+      id:       'Overview',
+      purpose:  #STANDARD,
+      type:     #IDENTIFICATION_REFERENCE,
+      label:    'Overview',
+      position: 10
+    },
+    {
+      id:       'Details',
+      purpose:  #STANDARD,
+      type:     #COLLECTION,
+      label:    'Details',
+      position: 20
+    }
+  ]
+
+  ///////////////////////////////////////////////////////////////////////////
+  // Field-level UI annotations (List + Object Page)
+  ///////////////////////////////////////////////////////////////////////////
+
+  @UI: {
+    lineItem:      [ { position: 10 } ],
+    identification:[ { label: 'Document Number', position: 10 } ],
+    fieldGroup:    [ { label: 'Key : Identification', qualifier: 'FG:Header', position: 10 } ]
+  }
+  AccountingDoc;
+
+  @UI: {
+    lineItem:      [ { position: 20 } ],
+    identification:[ { label: 'Company Code', position: 20 } ],
+    fieldGroup:    [ { label: 'Key : Identification', qualifier: 'FG:Header', position: 20 } ]
+  }
+  CompanyCode;
+
+  @UI: {
+    lineItem:      [ { position: 30 } ],
+    identification:[ { label: 'Fiscal Year', position: 30 } ],
+    fieldGroup:    [ { label: 'Key : Identification', qualifier: 'FG:Header', position: 30 } ]
+  }
+  FiscalYear;
+
+  @UI: {
+    lineItem:      [ { position: 40 } ],
+    identification:[ { label: 'JE or Suppl Inv', position: 40 } ],
+    fieldGroup:    [ { label: 'Key : Identification', qualifier: 'FG:Header', position: 40 } ]
+  }
+  IsJeOrSupplInv;
+
+  @UI: {
+    lineItem:      [ { position: 50 } ],
+    identification:[ { label: 'Transaction Key', position: 50 } ],
+    fieldGroup:    [ { label: 'Key : Identification', qualifier: 'FG:Header', position: 50 } ]
+  }
+  TransactionKey;
+  
+  @UI: {
+    lineItem:      [ { position: 60 } ],
+    identification:[ { label: 'Message Text', position: 60 } ],
+    fieldGroup:    [ { label: 'Details', qualifier: 'FG:Details', position: 60 } ]
+  }
+  MessageText;
+
+  @UI: {
+    lineItem:      [ { position: 70 } ],
+    identification:[ { label: 'Message id', position: 70 } ],
+    fieldGroup:    [ { label: 'Details', qualifier: 'FG:Details', position: 70 } ]
+  }    
+  MessageId;
+
+  @UI: {
+    lineItem:      [ { position: 80 } ],
+    identification:[ { label: 'Message Number', position: 80 } ],
+    fieldGroup:    [ { label: 'Details', qualifier: 'FG:Details', position: 80 } ]
+  }
+  MessageNumber;
+
+  @UI: {
+    lineItem:      [ { position: 90 } ],
+    identification:[ { label: 'Created By', position: 90 } ],
+    fieldGroup:    [ { label: 'Details', qualifier: 'FG:Details', position: 90 } ]
+  }
+  CreatedBy;
+  
+  @UI: {
+    lineItem:      [ { position: 100 } ],
+    identification:[ { label: 'Created Date', position: 100 } ],
+    fieldGroup:    [ { label: 'Details', qualifier: 'FG:Details', position: 100 } ]
+  }
+  CreatedDate;
+
+  @UI: {
+    lineItem:      [ { position: 110 } ],
+    identification:[ { label: 'Created Time', position: 110 } ],
+    fieldGroup:    [ { label: 'Details', qualifier: 'FG:Details', position: 110 } ]
+  }
+  CreatedTime;
+}

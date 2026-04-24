@@ -1,0 +1,10 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "I_CHARTOFACCOUNTS",
+      "I_GLACCOUNTINCHARTOFACCOUNTS",
+      "P_FSVHIERARCHYWITHCATEGORY",
+      "P_FSVSEMTAG"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_E1F0D65324EA'
+
+extend view C_AVGDAILYTRIALBALANCE with ZZ1_SOJCZZ5C6W6H5TVLQYP44HBUD4
+  
+{ 
+  I_AvgDailyBalKeyFig.ZZ1_CLIENTCODE_COB as ZZ1_CLIENTCODE_COB
+}

@@ -1,0 +1,16 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "ZI_EXCHANGERATE",
+      "TCURR"
+    ],
+    "ASSOCIATED": [
+      "I_CURRENCY",
+      "I_EXCHANGERATETYPE",
+      "I_EXCHANGERATETYPETEXT"
+    ],
+    "BASE": [
+      "ZI_EXCHANGERATE"
+    ]
+  }
+}

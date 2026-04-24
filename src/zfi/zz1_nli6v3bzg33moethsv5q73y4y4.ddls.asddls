@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_93F9E44CAC4D'
+
+extend view I_GLACCTLINEITMSUBLDGRITMTYPEC with ZZ1_NLI6V3BZG33MOETHSV5Q73Y4Y4
+  
+{ 
+  _Extension.ZZ1_HOLMANPO_COB as ZZ1_HOLMANPO_COB
+}

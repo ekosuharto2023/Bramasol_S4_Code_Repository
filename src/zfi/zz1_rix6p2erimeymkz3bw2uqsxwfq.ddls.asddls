@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_CBE33AFF9CF6'
+
+extend view I_CNSLDTNGLAVGDAILYBAL with ZZ1_RIX6P2ERIMEYMKZ3BW2UQSXWFQ
+  
+{ 
+  _Extension.ZZ1_PRODUCTCODE_COB as ZZ1_PRODUCTCODE_COB
+}

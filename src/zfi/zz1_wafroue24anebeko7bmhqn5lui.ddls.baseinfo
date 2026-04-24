@@ -1,0 +1,7 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "GLE_ADB_GR_KFC"
+    ]
+  }
+}

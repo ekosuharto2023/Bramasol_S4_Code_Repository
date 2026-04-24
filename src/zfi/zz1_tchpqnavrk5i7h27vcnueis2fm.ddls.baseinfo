@@ -1,0 +1,11 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "E_JOURNALENTRYITEM",
+      "I_FISCALCALENDARDATE",
+      "I_PROJECTBASICDATA",
+      "I_WBSELEMENTBASICDATA",
+      "P_GLACCOUNTBALANCE2"
+    ]
+  }
+}

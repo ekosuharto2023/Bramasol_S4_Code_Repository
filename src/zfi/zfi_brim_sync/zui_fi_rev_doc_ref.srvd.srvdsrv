@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition for Reversal Document Reference'
+define service ZUI_FI_REV_DOC_REF {
+  expose ZI_FI_REV_DOCUMENT;
+}

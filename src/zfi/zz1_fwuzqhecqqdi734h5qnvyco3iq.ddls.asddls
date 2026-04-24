@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_772FACDF6E9F'
+
+extend view C_COSTREVENUEREASSIGNMENTITEM with ZZ1_FWUZQHECQQDI734H5QNVYCO3IQ
+  
+{ 
+  _CostRevnReassignmentItemTP.ZZ1_PRODUCTCODE_COB as ZZ1_PRODUCTCODE_COB
+}

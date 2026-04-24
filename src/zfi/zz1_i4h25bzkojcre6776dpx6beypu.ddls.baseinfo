@@ -1,0 +1,8 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "E_FGL_BCF_PREV",
+      "FGL_BCF_PRE"
+    ]
+  }
+}

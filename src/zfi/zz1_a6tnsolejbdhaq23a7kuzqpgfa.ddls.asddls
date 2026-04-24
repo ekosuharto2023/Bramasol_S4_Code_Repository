@@ -1,0 +1,4 @@
+extend abstract entity D_SUPLRINVCCREATEGLITEMP with 
+{ 
+ ZZ1_VEHICLENO_COB : ZZ1_VEHICLENO;
+}

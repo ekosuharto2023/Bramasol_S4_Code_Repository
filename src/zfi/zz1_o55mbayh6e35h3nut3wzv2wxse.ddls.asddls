@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_DA43FAA6991C'
+
+extend view FAC_DART_Z3_GL_LEDGER_ITEM with ZZ1_O55MBAYH6E35H3NUT3WZV2WXSE
+  
+{ 
+  ZZ1_VEHICLENO_COB as ZZ1_VEHICLENO_COB
+}

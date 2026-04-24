@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_B06DD94CE8B7'
+
+extend view E_CNSLDTNGROUPJRNLENTRYITEM with ZZ1_CBOX54AGGRYW6DDB52B5CX5L3U
+  
+{ 
+  Persistence.ZZ1_VEHICLENO_CJE as ZZ1_VEHICLENO_CJE
+}

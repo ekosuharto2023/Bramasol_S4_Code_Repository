@@ -1,0 +1,15 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "I_EXCHANGERATE"
+    ],
+    "ASSOCIATED": [
+      "I_CURRENCY",
+      "I_EXCHANGERATETYPE",
+      "I_EXCHANGERATETYPETEXT"
+    ],
+    "BASE": [
+      "I_EXCHANGERATE"
+    ]
+  }
+}

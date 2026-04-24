@@ -1,0 +1,5 @@
+CLASS zbp_i_fi_glaccount DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zi_fi_glaccount.
+ENDCLASS.
+
+CLASS zbp_i_fi_glaccount IMPLEMENTATION.
+ENDCLASS.

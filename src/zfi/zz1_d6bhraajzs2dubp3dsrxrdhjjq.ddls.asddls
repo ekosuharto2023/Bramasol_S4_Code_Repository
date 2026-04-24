@@ -1,0 +1,5 @@
+extend view entity E_JRNLENTRITMMNGJRNLENTRYDRAFT with 
+  
+{ 
+  Persistence.ZZ1_TRANSACTIONKEY_COB as ZZ1_TRANSACTIONKEY_COB
+}

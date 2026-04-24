@@ -1,0 +1,15 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "I_CONFIGNDEPRECATIONCODETEXT",
+      "ZI_FI_PAYMENT_TERM_BC"
+    ],
+    "ASSOCIATED": [
+      "ZC_PAYTERM_BC_S",
+      "ZI_PAYTERM_BC_S"
+    ],
+    "BASE": [
+      "ZI_FI_PAYMENT_TERM_BC"
+    ]
+  }
+}

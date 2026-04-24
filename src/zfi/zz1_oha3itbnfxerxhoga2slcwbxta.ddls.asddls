@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_09821E122B89'
+
+extend view E_MATERIALDOCUMENTITEM with ZZ1_OHA3ITBNFXERXHOGA2SLCWBXTA
+  
+{ 
+  Persistence.ZZ1_TRANSACTIONKEY_COB as ZZ1_TRANSACTIONKEY_COB
+}

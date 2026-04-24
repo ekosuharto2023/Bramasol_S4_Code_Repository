@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_2CA3FA35646A'
+
+extend view I_REALTIMERPTDFINDATA with ZZ1_WNCNQ6ARY7AZIVELOWWV443WYY
+  
+{ 
+  _Extension.ZZ1_TRANSACTIONKEY_COB as ZZ1_TRANSACTIONKEY_COB
+}

@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_55F1A15743C8'
+
+extend view I_DRCTACTIVITYALLOCATIONITEMTP with ZZ1_VCOHX7FTVRDOZKDX6BSLXALS3Q
+  
+{ 
+  _Extension.ZZ1_SERIALNO_COB as ZZ1_SERIALNO_COB
+}

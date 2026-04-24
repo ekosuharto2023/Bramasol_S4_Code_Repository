@@ -1,0 +1,63 @@
+@Metadata.layer: #CORE
+@UI: {
+  headerInfo: {
+    typeNamePlural: 'Payment Terms',
+    typeName: 'Payment Term',
+    title: { value: 'PaymentTermName' }
+  }
+}
+annotate view ZI_FI_PAYMENT_TERM
+with
+{
+  ///////////////////////////////////////////////////////////////////////////
+  // Facets (Object Page)
+  ///////////////////////////////////////////////////////////////////////////
+  @UI.facet: [
+    {
+      id:       'Overview',
+      purpose:  #STANDARD,
+      type:     #IDENTIFICATION_REFERENCE,
+      label:    'Overview',
+      position: 10
+    },
+    {
+      id:       'Details',
+      purpose:  #STANDARD,
+      type:     #COLLECTION,
+      label:    'Details',
+      position: 20
+    }
+  ]
+
+  ///////////////////////////////////////////////////////////////////////////
+  // Field-level UI annotations
+  ///////////////////////////////////////////////////////////////////////////
+
+  @UI: {
+    lineItem:      [ { position: 10 } ],
+    identification:[ { label: 'Country', position: 10 } ],
+    fieldGroup:    [ { label: 'Key : Identification', qualifier: 'FG:Header', position: 10 } ]
+  }
+  @Search.defaultSearchElement: true
+  @Consumption.valueHelpDefinition: [{ entity: { name: 'I_CountryVH', element: 'Country' } }]
+  Country;
+
+  @UI: {
+    lineItem:      [ { position: 20 } ],
+    identification:[ { label: 'Default Terms Code', position: 20 } ],
+    fieldGroup:    [ { label: 'Key : Identification', qualifier: 'FG:Header', position: 20 } ]
+  }
+  DefaultTermsCode;
+
+  @UI: {
+    lineItem:      [ { position: 30 } ],
+    identification:[ { label: 'New Term', position: 30 } ],
+    fieldGroup:    [ { label: 'Key : Identification', qualifier: 'FG:Header', position: 30 } ]
+  }
+  @Search.defaultSearchElement: true
+  @Consumption.valueHelpDefinition: [{ entity: { name: 'I_PaymentTerms', element: 'PaymentTerms' } }]
+  NewTerm;
+
+
+
+}

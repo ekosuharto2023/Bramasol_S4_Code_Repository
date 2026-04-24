@@ -1,0 +1,18 @@
+managed implementation in class zbp_i_fi_glaccount unique;
+strict ( 2 );
+
+define behavior for ZI_FI_GLACCOUNT //alias <alias_name>
+persistent table zfi_glaccount
+lock master
+authorization master ( global, instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+
+  mapping for zfi_glaccount {
+    InfiniumGl = infinium_gl;
+    SapGl = sap_gl;
+  }
+}

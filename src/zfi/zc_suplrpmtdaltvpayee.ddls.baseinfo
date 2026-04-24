@@ -1,0 +1,15 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "I_SUPLRPMTDALTVPAYEE"
+    ],
+    "ASSOCIATED": [
+      "I_COMPANYCODE",
+      "I_SUPPLIER",
+      "I_SUPPLIERCOMPANY"
+    ],
+    "BASE": [
+      "I_SUPLRPMTDALTVPAYEE"
+    ]
+  }
+}

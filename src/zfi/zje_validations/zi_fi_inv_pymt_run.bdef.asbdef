@@ -1,0 +1,23 @@
+managed implementation in class zbp_i_fi_inv_pymt_run unique;
+strict ( 2 );
+
+define behavior for ZI_FI_INV_PYMT_RUN //alias <alias_name>
+persistent table zfi_inv_pymt_run
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+//  field ( mandatory ) payment_run_id, invoice_category;
+  create;
+  update;
+  delete;
+
+  mapping for zfi_inv_pymt_run {
+  company_code    = company_code;
+  payment_run_id  = payment_run_id;
+  payment_method  = payment_method;
+  InvoiceCategory = invoice_category;
+  description     = description;
+}
+
+}

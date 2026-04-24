@@ -1,0 +1,5 @@
+extend view entity R_MANAGEJOURNALENTRYITEMDRAFT with 
+  
+{ 
+  _Extension.ZZ1_TRANSACTIONKEY_COB as ZZ1_TRANSACTIONKEY_COB
+}

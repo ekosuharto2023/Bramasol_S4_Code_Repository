@@ -1,0 +1,17 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "E_MATERIALDOCUMENTITEM",
+      "I_MATERIALDOCUMENTRECORD",
+      "V_MMIM_DDL_OM_BYLF",
+      "V_MMIM_DDL_OM_BYPD",
+      "V_MMIM_DDL_OM_BYPL",
+      "V_MMIM_DDL_OM_BYPO",
+      "V_MMIM_DDL_OM_BYPV",
+      "EKKO",
+      "MARA",
+      "T134",
+      "T156"
+    ]
+  }
+}

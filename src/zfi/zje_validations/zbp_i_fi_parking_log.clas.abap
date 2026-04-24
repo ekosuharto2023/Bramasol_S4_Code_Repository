@@ -1,0 +1,5 @@
+CLASS zbp_i_fi_parking_log DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zi_fi_parking_log.
+ENDCLASS.
+
+CLASS zbp_i_fi_parking_log IMPLEMENTATION.
+ENDCLASS.

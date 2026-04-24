@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_01EA4797CA40'
+
+extend view A_FINPLANNINGENTRYITEM with ZZ1_XFWOUPLHO3Q35YCUVU3FSOCN7Y
+  
+{ 
+  ZZ1_SOURCE_COB as ZZ1_SOURCE_COB
+}

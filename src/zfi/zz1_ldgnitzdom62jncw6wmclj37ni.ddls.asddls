@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_40CF1F73D6EB'
+
+extend view C_MATLDOCFORPRINTGDSISSSUBCONT with ZZ1_LDGNITZDOM62JNCW6WMCLJ37NI
+  
+{ 
+  _PrintExtension.ZZ1_VEHICLENO_COB as ZZ1_VEHICLENO_COB
+}

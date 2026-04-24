@@ -1,0 +1,1688 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V11.0.9.20240701.1.52_SAP" APIVersion="3.6.24183.0"?><xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2026-03-17T11:53:52Z" uuid="e05f4783-0e38-4811-a89c-491953b346ec">
+<template xmlns:xliff="urn:oasis:names:tc:xliff:document:1.1" xmlns="http://www.xfa.org/schema/xfa-template/2.8/">
+   <tags xmlns="http://www.xfa.org/schema/xfa-xliff/1.0/"><value id="N1024">TEL_EXTEN1</value><value id="N1127"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="1.4.4348.0"><p style="margin-left:1.417pt"><span xfa:embed="#floatingField019169" xfa:embedMode="raw" xfa:embedType="uri"/> /<span style="xfa-spacerun:yes">  </span><span xfa:embed="#floatingField015724" xfa:embedMode="raw" xfa:embedType="uri"/></p></body></value><value id="N1375">Date</value><value id="N1565">Document/posting date</value><value id="N1614">Our clerk</value><value id="N1793">Telephone</value><value id="N2044">Page</value><value id="N2077">Fax</value><value id="N2256"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="1.4.4348.0"><p><span xfa:embed="#floatingField000041" xfa:embedMode="raw" xfa:embedType="uri"/> -<span style="xfa-spacerun:yes"> </span><span xfa:embed="#floatingField018467" xfa:embedMode="raw" xfa:embedType="uri"/><span style="xfa-spacerun:yes"> </span></p></body></value><value id="N2346">Your account with us</value><value id="N2398"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="1.4.4065.0">
+                      <p>Document</p>
+                    </body></value><value id="N2441"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="1.4.4065.0">
+                      <p>Your document</p>
+                    </body></value><value id="N2483"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="1.4.4065.0">
+                      <p>Date</p>
+                    </body></value><value id="N2526">Our account with you</value><value id="N2538"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="1.4.4348.0"><p><span xfa:embed="#floatingField006334" xfa:embedMode="raw" xfa:embedType="uri"/> -<span style="xfa-spacerun:yes"> </span><span xfa:embed="#floatingField026500" xfa:embedMode="raw" xfa:embedType="uri"/><span style="xfa-spacerun:yes"> </span></p></body></value><value id="N2570"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="1.4.4065.0">
+                      <p>Gross amount</p>
+                    </body></value><value id="N279">Sender</value><value id="N301"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="1.4.4183.0">
+                      <p>
+                        <span style="xfa-spacerun:yes"> </span>
+                        <span style="xfa-tab-count:1">         </span>
+                        <span style="xfa-spacerun:yes"> </span>
+                      </p>
+                      <p>
+                        <span style="xfa-spacerun:yes"> </span>
+                      </p>
+                    </body></value><value id="N3169">Company logo</value><value id="N3517"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xfa:APIVersion="1.4.4348.0"><p><span xfa:embed="#floatingField000491" xfa:embedMode="raw" xfa:embedType="uri"/><span style="xfa-spacerun:yes"> </span><span style="font-weight:bold">/<span style="xfa-spacerun:yes"> </span></span><span xfa:embed="#floatingField002995" xfa:embedMode="raw" xfa:embedType="uri"/></p></body></value><value id="N3704">Date</value><value id="N4113">#</value><value id="N482">Payment advice notification</value><value id="N5355">Currency</value><value id="N5397">Total amount</value><value id="N5417">Deductions</value><value id="N6559">Payment amount</value><value id="N81">Company logo</value><value id="N946">TELF1</value></tags>
+   <?formServer defaultPDFRenderFormat acrobat9.0static?>
+   <subform layout="tb" locale="de_DE" name="data">
+      <pageSet name="PaymentAdvice">
+         <pageArea id="Page1" name="First">
+            <occur max="1" min="1"/>
+            <contentArea h="209.781mm" id="ContentArea" name="Main" w="175mm" x="20.433mm" y="87.181mm"/>
+            <subform h="9mm" w="175.786mm" x="20.252mm" y="5.889mm">
+               <bind match="none"/>
+               <?templateDesigner expand 1?></subform>
+            <medium long="297mm" short="210mm" stock="a4"/>
+            <subform h="18.095mm" name="Footer" w="159.459mm" x="36.946mm" y="268.597mm">
+               <draw h="7.783mm" name="US_Footer" presence="hidden" w="6.890319in">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <value>
+                     <text xliff:rid="56C77A6C-0847-46E8-8BE8-F3A1C31F937F">CA – “ADVICE ONLY – Payment subject to verification by banking partners. If you need to contact us, do not reply directly to this email, instead, email our Accounting Department at caremittance@holman.com ”</text>
+                  </value>
+                  <font baselineShift="0pt" size="9pt" typeface="Arial"/>
+                  <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                  <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+                  <assist>
+                     <speak disable="1"/>
+                  </assist>
+                  <desc>
+                     <text name="Schema Annotation">FuÃ?text
+SAPScript Include-Text 
+ NAME-FIELD = FOOTER 
+ LANGUAGE-FIELD = LANGUAGE 
+ OBJECT = TEXT 
+ ID = ADRS</text>
+                  </desc>
+               </draw>
+               <?templateDesigner expand 0?>
+               <draw h="7.783mm" name="MX_Footer" presence="hidden" w="6.889764in" x="0.014mm" y="8.546mm">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <value>
+                     <text xliff:rid="768CF3E6-8690-4585-B005-9C7D19CD7F86">MX - “ADVICE ONLY – Payment subject to verification by banking partners. If you need to contact us, do not reply directly to this email, instead, email our Accounting Department at apmexico@holman.com.”</text>
+                  </value>
+                  <font baselineShift="0pt" size="9pt" typeface="Arial"/>
+                  <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                  <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+                  <assist>
+                     <speak disable="1"/>
+                  </assist>
+                  <desc>
+                     <text name="Schema Annotation">FuÃ?text
+SAPScript Include-Text 
+ NAME-FIELD = FOOTER 
+ LANGUAGE-FIELD = LANGUAGE 
+ OBJECT = TEXT 
+ ID = ADRS</text>
+                  </desc>
+               </draw>
+               <draw h="7.783mm" name="CA_Footer" presence="hidden" w="6.889764in" x="0.014mm" y="16.905mm">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <value>
+                     <text xliff:rid="6AA82F9B-C63D-4269-94A5-FD44CCC44A60">US – “ADVICE ONLY – Payment subject to verification by banking partners. If you need to contact us, do not reply directly to this email, instead, email our Accounting Department at SupplierRelations@holman.com”</text>
+                  </value>
+                  <font baselineShift="0pt" size="9pt" typeface="Arial"/>
+                  <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+                  <assist>
+                     <speak disable="1"/>
+                  </assist>
+                  <desc>
+                     <text name="Schema Annotation">FuÃ?text
+SAPScript Include-Text 
+ NAME-FIELD = FOOTER 
+ LANGUAGE-FIELD = LANGUAGE 
+ OBJECT = TEXT 
+ ID = ADRS</text>
+                  </desc>
+               </draw>
+               <field h="16.188mm" name="TextField2" w="156.273mm" x="0mm">
+                  <ui>
+                     <textEdit multiLine="1">
+                        <border presence="hidden"/>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Courier New"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="0mm">
+                     <para vAlign="middle"/>
+                  </caption>
+                  <bind match="dataRef" ref="$record.GV_FOOTER"/>
+               </field>
+            </subform>
+            <field access="readOnly" h="7.5mm" id="floatingField006334" name="CurrentPage" presence="hidden" w="55mm" x="62.957mm" y="225.996mm">
+               <ui>
+                  <numericEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </numericEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="20mm">
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="AD5BCC19-CB6B-46E0-894D-203806059131">Text Field</text>
+                  </value>
+               </caption>
+               <calculate override="error"/>
+               <event activity="ready" name="event__layout_ready" ref="$layout">
+                  <script contentType="application/x-javascript">this.rawValue = xfa.layout.page(this);
+</script>
+               </event>
+               <?templateDesigner floatingFieldPlaceholder #?>
+               <bind match="none"/>
+            </field>
+            <draw h="3.528mm" name="Pages" w="12.873mm" x="22.244mm" y="274.438mm">
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <exData contentType="text/html" maxLength="0" xliff:rid="25845B66-5BBC-479D-BA0C-90E8E73740A7">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"><p style="text-decoration:none;letter-spacing:0in">Page<span style="xfa-spacerun:yes"> </span><span xfa:embed="#floatingField006334" xfa:embedMode="raw" xfa:embedType="uri"/><span style="xfa-spacerun:yes"> </span></p></body>
+                  </exData>
+               </value>
+               <font typeface="Arial"/>
+               <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+               <para vAlign="middle"/>
+            </draw>
+            <subform h="38.851mm" w="82.015mm" x="20.393mm" y="16.149mm">
+               <bind match="none"/>
+               <field h="5.205mm" name="TextField6" w="80mm" x="0.189mm" y="7.915mm">
+                  <ui>
+                     <textEdit multiLine="1">
+                        <border presence="hidden"/>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="9pt" typeface="Courier New"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="0mm">
+                     <para vAlign="middle"/>
+                  </caption>
+                  <bind match="dataRef" ref="$.GS_HEADER.TO_NAME1"/>
+               </field>
+               <field h="5.205mm" name="TextField6" w="80mm" x="0.189mm" y="13.364mm">
+                  <ui>
+                     <textEdit multiLine="1">
+                        <border presence="hidden"/>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="9pt" typeface="Courier New"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="0mm">
+                     <para vAlign="middle"/>
+                  </caption>
+                  <bind match="dataRef" ref="$.GS_HEADER.TO_STREET"/>
+               </field>
+               <field h="5.205mm" name="TextField6" w="80mm" x="0.562mm" y="18.885mm">
+                  <ui>
+                     <textEdit multiLine="1">
+                        <border presence="hidden"/>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="9pt" typeface="Courier New"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="0mm">
+                     <para vAlign="middle"/>
+                  </caption>
+                  <bind match="dataRef" ref="$.GS_HEADER.TO_CITY"/>
+               </field>
+               <field h="5.205mm" name="TextField6" w="40.28mm" x="0.189mm" y="23.969mm">
+                  <ui>
+                     <textEdit multiLine="1">
+                        <border presence="hidden"/>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="9pt" typeface="Courier New"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="0mm">
+                     <para vAlign="middle"/>
+                  </caption>
+                  <bind match="dataRef" ref="$.GS_HEADER.TO_POSTCODE"/>
+               </field>
+               <field h="5.205mm" name="TextField6" w="80mm" x="0.374mm" y="29.456mm">
+                  <ui>
+                     <textEdit multiLine="1">
+                        <border presence="hidden"/>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="9pt" typeface="Courier New"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="25mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="0897CF17-F5E5-4FB0-8614-76B919ED8A75">VAT Reg. No :</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.GS_HEADER.VENDOR_VAT"/>
+               </field>
+               <draw h="5.186mm" name="Text1" w="12.253mm" x="0.215mm" y="2.262mm">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <value>
+                     <text xliff:rid="B02F8300-FA05-4F7C-AB58-533A63F28183">To:</text>
+                  </value>
+                  <font baselineShift="0pt" typeface="Courier New" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+                  <?renderCache.bounds 31899 11866 0 0 1417 1417 0 0?>
+                  <?renderCache.textRun 3 To: 0 1417 9327 0 0 0 "Courier New" 1 0 10000 ISO-8859-1?></draw>
+               <?templateDesigner expand 0?></subform>
+            <subform h="51.505mm" w="85mm" x="109.911mm" y="15.987mm">
+               <bind match="none"/>
+               <field h="5.205mm" name="TextField6" w="80mm" x="2.589mm" y="7.915mm">
+                  <ui>
+                     <textEdit multiLine="1">
+                        <border presence="hidden"/>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="9pt" typeface="Courier New"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="0mm">
+                     <para vAlign="middle"/>
+                  </caption>
+                  <bind match="dataRef" ref="$.GS_HEADER.FROM_NAME1"/>
+               </field>
+               <field h="5.205mm" name="TextField6" w="80mm" x="2.589mm" y="13.782mm">
+                  <ui>
+                     <textEdit multiLine="1">
+                        <border presence="hidden"/>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="9pt" typeface="Courier New"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="0mm">
+                     <para vAlign="middle"/>
+                  </caption>
+                  <bind match="dataRef" ref="$.GS_HEADER.FROM_STREET"/>
+               </field>
+               <field h="5.205mm" name="TextField6" w="80mm" x="2.589mm" y="18.632mm">
+                  <ui>
+                     <textEdit multiLine="1">
+                        <border presence="hidden"/>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="9pt" typeface="Courier New"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="0mm">
+                     <para vAlign="middle"/>
+                  </caption>
+                  <bind match="dataRef" ref="$.GS_HEADER.FROM_CITY"/>
+               </field>
+               <field h="5.205mm" name="TextField6" w="41.872mm" x="2.575mm" y="23.95mm">
+                  <ui>
+                     <textEdit multiLine="1">
+                        <border presence="hidden"/>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="9pt" typeface="Courier New"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="0mm">
+                     <para vAlign="middle"/>
+                  </caption>
+                  <bind match="dataRef" ref="$.GS_HEADER.FROM_POSTCODE"/>
+               </field>
+               <field h="5.205mm" name="TextField6" w="80mm" x="2.947mm" y="45.128mm">
+                  <ui>
+                     <textEdit multiLine="1">
+                        <border presence="hidden"/>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="9pt" typeface="Courier New"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="25.9066mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="0D228F92-7596-4870-99EF-7589289EC683">VAT Reg. No :</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.GS_HEADER.COMP_VAT_NO"/>
+               </field>
+               <draw h="5.2331mm" name="Text1" w="14.673mm" x="2.615mm" y="2.214mm">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <value>
+                     <text xliff:rid="C7158DFE-20A0-4803-9094-542F7BABA6B7">From:</text>
+                  </value>
+                  <font baselineShift="0pt" typeface="Courier New" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+                  <?renderCache.bounds 38759 12000 0 0 1417 1417 0 0?>
+                  <?renderCache.textRun 5 From: 0 1417 9327 0 0 0 "Courier New" 1 0 10000 ISO-8859-1?></draw>
+               <field h="5.205mm" name="TextField6" w="80mm" x="2.761mm" y="29.194mm">
+                  <ui>
+                     <textEdit multiLine="1">
+                        <border presence="hidden"/>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="9pt" typeface="Courier New"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="14.7283mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="B2A53A97-BBD4-4335-802C-F164CBF78BF3">TEL NO: </text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.GS_HEADER.FROM_TEL"/>
+               </field>
+               <field h="5.205mm" minW="82.087mm" name="TextField6" x="2.913mm" y="39.698mm">
+                  <ui>
+                     <textEdit multiLine="1">
+                        <border presence="hidden"/>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="9pt" typeface="Courier New"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="14.3536mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="216BC8FD-7133-4F32-A772-1BA281B8EEEB">Email :</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.GS_HEADER.FROM_EMAIL"/>
+               </field>
+               <?templateDesigner expand 0?>
+               <field h="5.205mm" minW="80mm" name="TextField6" x="2.76mm" y="34.445mm">
+                  <ui>
+                     <textEdit multiLine="1">
+                        <border presence="hidden"/>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="9pt" typeface="Courier New"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="24.2489mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="DBBC480D-4E02-4D39-92FE-457BC5D27066">Our Contact:</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.GS_HEADER.ACCT_CLERK"/>
+               </field>
+            </subform>
+            <subform w="175.08mm" x="19.831mm" y="74.564mm">
+               <bind match="none"/>
+               <subform h="6.973mm" w="146.449mm">
+                  <bind match="none"/>
+                  <?templateDesigner expand 1?></subform>
+               <?templateDesigner expand 1?></subform>
+            <field h="7.495mm" name="TextField7" w="175.786mm" x="20.439mm" y="6.236mm">
+               <ui>
+                  <textEdit>
+                     <border presence="hidden"/>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font size="14pt" typeface="Courier New" weight="bold"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para hAlign="center" vAlign="middle"/>
+               <caption reserve="0mm">
+                  <para hAlign="center" vAlign="middle"/>
+               </caption>
+               <bind match="dataRef" ref="$.GV_TITLE"/>
+            </field>
+            <subform h="17.812mm" name="Subform2" w="175mm" x="19.494mm" y="67.491mm">
+               <bind match="none"/>
+               <field h="6.35mm" minW="53.067mm" name="TextField4" presence="hidden" x="121.578mm" y="8.056mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden"/>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Courier New"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="17.865mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="60375316-49BC-42F2-A71A-37777A58DD79">Sort Code:</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.GS_HEADER.BANK_SORT"/>
+               </field>
+               <?templateDesigner expand 1?></subform>
+            <field h="0.274528in" minW="141.25mm" name="TextField5" x="21.558mm" y="68.058mm">
+               <ui>
+                  <textEdit multiLine="1">
+                     <border presence="hidden"/>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font size="9pt" typeface="Courier New" weight="bold"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="54.5643mm">
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                  <value>
+                     <exData contentType="text/html" xliff:rid="90407EC8-0212-4C56-B54C-5BB4D993174A">
+                        <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="font-size:9pt;letter-spacing:0in">Always quote account number:</p></body>
+                     </exData>
+                  </value>
+                  <font baselineShift="0pt" size="11pt" typeface="Courier New" weight="bold"/>
+               </caption>
+               <bind match="dataRef" ref="$.GS_HEADER.VENDOR"/>
+            </field>
+            <subform name="Subform1" w="175.071mm" x="19.876mm" y="74.613mm">
+               <bind match="none"/>
+               <field h="12.103mm" name="TextField3" w="173.574mm" x="1.496mm">
+                  <ui>
+                     <textEdit multiLine="1"/>
+                  </ui>
+                  <font baselineShift="0pt" size="9pt" typeface="Courier New"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+                  <caption>
+                     <value>
+                        <exData contentType="text/html" xliff:rid="7A565FEE-DA49-4FE2-87FF-A1BB906E1607">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="letter-spacing:0in"><span style="xfa-spacerun:yes"> </span></p><p style="letter-spacing:0in"><span style="xfa-spacerun:yes"> </span></p></body>
+                        </exData>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.GS_HEADER.PAY_TEXT1"/>
+               </field>
+               <?templateDesigner expand 1?></subform>
+            <?templateDesigner expand 1?></pageArea>
+         <field access="nonInteractive" anchorType="bottomRight" minH="16.93mm" minW="187.33mm" name="Footer_text" x="202.1499mm" y="136.5202mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font size="6pt" typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para hAlign="center" vAlign="middle"/>
+            <value>
+               <exData contentType="text/html" maxLength="0">
+                  <body xmlns="http://www.w3.org/1999/xhtml"/>
+               </exData>
+            </value>
+            <bind match="dataRef" ref="$record.PRINT_DATA.FOOTER_TEXT"/>
+            <desc>
+               <text name="Schema Annotation">Fu
+Smart Forms Textbaustein 
+ NAME-FIELD = FOOTER</text>
+            </desc>
+            <?digestForSAP digest="841744b1dd33ef4eff3a12d92f4297c5"?></field>
+         <?templateDesigner expand 1?></pageSet>
+      <subform layout="tb" name="PaymentAdvice" w="175mm">
+         <subform layout="tb" w="175mm">
+            <bind match="none"/>
+            <subform layout="tb" w="174.999mm">
+               <bind match="none"/>
+               <subform columnWidths="29.1405mm 29.1405mm 29.1405mm 29.1405mm 29.1405mm 29.1405mm" hAlign="justify" layout="table" name="Table1">
+                  <border>
+                     <edge presence="hidden"/>
+                     <corner presence="hidden"/>
+                  </border>
+                  <subform id="HeaderRow_ID" layout="row" name="HeaderRow" x="-0.001mm">
+                     <assist role="TH"/>
+                     <draw h="7.2079mm" name="Cell1">
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <value>
+                           <text xliff:rid="D2B8DE31-17C4-4D0F-B47E-F0A0E55205AB">Date</text>
+                        </value>
+                        <font typeface="Courier New" weight="bold"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para vAlign="middle"/>
+                     </draw>
+                     <draw h="7.2079mm" name="Cell2">
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <value>
+                           <text xliff:rid="EB83BC97-78C5-4303-8AC4-2812F728AA0E">Description</text>
+                        </value>
+                        <font typeface="Courier New" weight="bold"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para vAlign="middle"/>
+                     </draw>
+                     <draw h="7.2079mm" name="Cell4">
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <value>
+                           <text xliff:rid="1F655556-AF37-42B6-85BB-074D4BED5E72">Your Ref</text>
+                        </value>
+                        <font typeface="Courier New" weight="bold"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para vAlign="middle"/>
+                     </draw>
+                     <draw h="7.2079mm" name="Cell5">
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <value>
+                           <text xliff:rid="30A631A9-E706-42BC-8B3B-D08BF9020CF1">Net</text>
+                        </value>
+                        <font typeface="Courier New" weight="bold"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="right" vAlign="middle"/>
+                     </draw>
+                     <draw h="7.2079mm" name="Cell6">
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <value>
+                           <text xliff:rid="D140D253-0525-4ED7-ADF8-19962ADC02A4">Vat</text>
+                        </value>
+                        <font typeface="Courier New" weight="bold"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="right" vAlign="middle"/>
+                     </draw>
+                     <draw h="7.2079mm" name="Cell7">
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <value>
+                           <text xliff:rid="558D46C6-1BF8-4233-9A63-1FAAEF228DC8">Total</text>
+                        </value>
+                        <font typeface="Courier New" weight="bold"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="right" vAlign="middle"/>
+                     </draw>
+                     <border>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <edge presence="hidden"/>
+                        <corner/>
+                     </border>
+                     <bind match="none"/>
+                     <?templateDesigner expand 0?></subform>
+                  <subformSet>
+                     <subform layout="row" name="Row1" x="-0.001mm">
+                        <assist role="TR"/>
+                        <field h="0.268958in" name="Cell1" x="0.001mm" y="0mm">
+                           <ui>
+                              <dateTimeEdit/>
+                           </ui>
+                           <font typeface="Courier New"/>
+                           <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                           <para vAlign="middle"/>
+                           <value>
+                              <date/>
+                           </value>
+                           <border>
+                              <edge presence="hidden"/>
+                              <corner presence="hidden" thickness="0.1778mm"/>
+                           </border>
+                           <bind match="dataRef" ref="$.DOC_DATE"/>
+                           <format>
+                              <picture>date{DD/MM/YYYY}</picture>
+                           </format>
+                        </field>
+                        <field h="0.268958in" name="Cell2" y="0mm">
+                           <ui>
+                              <textEdit multiLine="1"/>
+                           </ui>
+                           <font typeface="Courier New"/>
+                           <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                           <para vAlign="middle"/>
+                           <border>
+                              <edge presence="hidden"/>
+                              <corner presence="hidden" thickness="0.1778mm"/>
+                           </border>
+                           <bind match="dataRef" ref="$.DESCR"/>
+                        </field>
+                        <field h="0.268958in" name="Cell4" y="0mm">
+                           <ui>
+                              <textEdit/>
+                           </ui>
+                           <font typeface="Courier New"/>
+                           <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                           <para vAlign="middle"/>
+                           <border>
+                              <edge presence="hidden"/>
+                              <corner presence="hidden" thickness="0.1778mm"/>
+                           </border>
+                           <bind match="dataRef" ref="$.YOUR_REF"/>
+                        </field>
+                        <field h="0.268958in" locale="en_GB" w="0.98425in">
+                           <ui>
+                              <numericEdit>
+                                 <margin/>
+                                 <border presence="hidden"/>
+                              </numericEdit>
+                              <picture>num.currency{}</picture>
+                           </ui>
+                           <font typeface="Courier New"/>
+                           <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                           <para hAlign="right" vAlign="middle"/>
+                           <value>
+                              <decimal fracDigits="-1"/>
+                           </value>
+                           <border>
+                              <edge presence="hidden"/>
+                              <corner presence="hidden" thickness="0.1778mm"/>
+                           </border>
+                           <bind match="dataRef" ref="$.NET_A"/>
+                        </field>
+                        <field h="0.268958in" locale="en_GB" w="0.98425in">
+                           <ui>
+                              <numericEdit>
+                                 <margin/>
+                                 <border presence="hidden"/>
+                              </numericEdit>
+                              <picture>num.currency{}</picture>
+                           </ui>
+                           <font typeface="Courier New"/>
+                           <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                           <para hAlign="right" vAlign="middle"/>
+                           <value>
+                              <decimal fracDigits="-1"/>
+                           </value>
+                           <border>
+                              <edge presence="hidden"/>
+                              <corner presence="hidden" thickness="0.1778mm"/>
+                           </border>
+                           <bind match="dataRef" ref="$.VAT_B"/>
+                        </field>
+                        <field h="0.268958in" locale="en_GB" w="0.98425in">
+                           <ui>
+                              <numericEdit>
+                                 <margin/>
+                                 <border presence="hidden"/>
+                              </numericEdit>
+                              <picture>num.currency{}</picture>
+                           </ui>
+                           <font typeface="Courier New"/>
+                           <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                           <para hAlign="right" vAlign="middle"/>
+                           <value>
+                              <decimal fracDigits="-1"/>
+                           </value>
+                           <border>
+                              <edge presence="hidden"/>
+                              <corner presence="hidden" thickness="0.1778mm"/>
+                           </border>
+                           <bind match="dataRef" ref="$.TOTAL_C"/>
+                        </field>
+                        <border>
+                           <edge/>
+                           <edge presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <corner/>
+                        </border>
+                        <bind match="dataRef" ref="$record.GT_ITEMS.DATA[*]"/>
+                        <keep intact="none"/>
+                        <?templateDesigner expand 1?></subform>
+                     <subform layout="row" name="Row1" x="-0.001mm">
+                        <assist role="TR"/>
+                        <field h="0.268958in">
+                           <ui>
+                              <dateTimeEdit>
+                                 <margin/>
+                              </dateTimeEdit>
+                           </ui>
+                           <font typeface="Courier New"/>
+                           <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                           <para vAlign="middle"/>
+                           <value>
+                              <date/>
+                           </value>
+                           <border>
+                              <edge presence="hidden"/>
+                              <corner presence="hidden" thickness="0.1778mm"/>
+                           </border>
+                           <format>
+                              <picture>date{DD/MM/YYYY}</picture>
+                           </format>
+                           <bind match="dataRef" ref="$.DOC_DATE"/>
+                        </field>
+                        <field h="0.268958in">
+                           <ui>
+                              <textEdit multiLine="1">
+                                 <margin/>
+                              </textEdit>
+                           </ui>
+                           <font typeface="Courier New"/>
+                           <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                           <para vAlign="middle"/>
+                           <border>
+                              <edge presence="hidden"/>
+                              <corner presence="hidden" thickness="0.1778mm"/>
+                           </border>
+                           <bind match="dataRef" ref="$.DESCR"/>
+                        </field>
+                        <field h="0.268958in">
+                           <ui>
+                              <textEdit>
+                                 <margin/>
+                              </textEdit>
+                           </ui>
+                           <font typeface="Courier New"/>
+                           <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                           <para vAlign="middle"/>
+                           <border>
+                              <edge presence="hidden"/>
+                              <corner presence="hidden" thickness="0.1778mm"/>
+                           </border>
+                           <bind match="dataRef" ref="$.YOUR_REF"/>
+                        </field>
+                        <field h="0.268958in" locale="en_GB" name="Cell4" w="0.98425in">
+                           <ui>
+                              <numericEdit>
+                                 <margin/>
+                                 <border presence="hidden"/>
+                              </numericEdit>
+                              <picture>num.currency{}</picture>
+                           </ui>
+                           <font typeface="Courier New"/>
+                           <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                           <para hAlign="right" vAlign="middle"/>
+                           <value>
+                              <decimal fracDigits="-1"/>
+                           </value>
+                           <border>
+                              <edge presence="hidden"/>
+                              <corner presence="hidden" thickness="0.1778mm"/>
+                           </border>
+                           <bind match="dataRef" ref="$.NET_A"/>
+                        </field>
+                        <field h="0.268958in" locale="en_GB" name="Cell5" w="0.98425in">
+                           <ui>
+                              <numericEdit>
+                                 <margin/>
+                                 <border presence="hidden"/>
+                              </numericEdit>
+                              <picture>num.currency{}</picture>
+                           </ui>
+                           <font typeface="Courier New"/>
+                           <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                           <para hAlign="right" vAlign="middle"/>
+                           <value>
+                              <decimal fracDigits="-1"/>
+                           </value>
+                           <border>
+                              <edge presence="hidden"/>
+                              <corner presence="hidden" thickness="0.1778mm"/>
+                           </border>
+                           <bind match="dataRef" ref="$.VAT_B"/>
+                        </field>
+                        <field h="0.268958in" locale="en_GB" name="Cell6" w="0.98425in">
+                           <ui>
+                              <numericEdit>
+                                 <margin/>
+                                 <border presence="hidden"/>
+                              </numericEdit>
+                              <picture>num.currency{}</picture>
+                           </ui>
+                           <font typeface="Courier New"/>
+                           <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                           <para hAlign="right" vAlign="middle"/>
+                           <value>
+                              <decimal fracDigits="-1"/>
+                           </value>
+                           <border>
+                              <edge presence="hidden"/>
+                              <corner presence="hidden" thickness="0.1778mm"/>
+                           </border>
+                           <bind match="dataRef" ref="$.TOTAL_C"/>
+                        </field>
+                        <border>
+                           <edge presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <edge/>
+                           <edge presence="hidden"/>
+                           <corner/>
+                        </border>
+                        <bind match="dataRef" ref="$record.GT_ES_LINES.DATA[*]"/>
+                        <keep intact="none"/>
+                        <event activity="initialize" name="event__initialize">
+                           <script>
+// INTELLIPAY ROW – hide if all amounts = 0 OR empty
+var net  = Num(this.Cell4.rawValue);
+var vat  = Num(this.Cell5.rawValue);
+var tot  = Num(this.Cell6.rawValue);
+
+// If no ES data OR values = zero → hide the row
+if (net == 0.00 AND vat == 0.00 AND tot == 0.00) then
+    this.presence = "hidden";
+else
+    this.presence = "visible";
+endif
+</script>
+                        </event>
+                        <?templateDesigner expand 1?></subform>
+                     <occur max="-1"/>
+                     <?templateDesigner expand 1?></subformSet>
+                  <subform id="Totals_ID" layout="row" name="Totals">
+                     <assist role="TH"/>
+                     <field h="7.2079mm">
+                        <ui>
+                           <textEdit>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Courier New"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para vAlign="middle"/>
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.DOC_DATE"/>
+                     </field>
+                     <field h="7.2079mm">
+                        <ui>
+                           <textEdit>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Courier New" weight="bold"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para vAlign="middle"/>
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.DESCR"/>
+                     </field>
+                     <field h="7.2079mm">
+                        <ui>
+                           <textEdit>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Courier New"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para vAlign="middle"/>
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.YOUR_REF"/>
+                     </field>
+                     <field h="7.2079mm" locale="en_GB">
+                        <ui>
+                           <numericEdit>
+                              <margin/>
+                           </numericEdit>
+                           <picture>num.currency{}</picture>
+                        </ui>
+                        <font typeface="Courier New"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="right" vAlign="middle"/>
+                        <value>
+                           <decimal fracDigits="-1"/>
+                        </value>
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.NET_A"/>
+                     </field>
+                     <field h="7.2079mm" locale="en_GB">
+                        <ui>
+                           <numericEdit>
+                              <margin/>
+                           </numericEdit>
+                           <picture>num.currency{}</picture>
+                        </ui>
+                        <font typeface="Courier New"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="right" vAlign="middle"/>
+                        <value>
+                           <decimal fracDigits="-1"/>
+                        </value>
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.VAT_B"/>
+                     </field>
+                     <field h="7.2079mm" locale="en_GB">
+                        <ui>
+                           <numericEdit>
+                              <margin/>
+                           </numericEdit>
+                           <picture>num.currency{}</picture>
+                        </ui>
+                        <font typeface="Courier New"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="right" vAlign="middle"/>
+                        <value>
+                           <decimal fracDigits="-1"/>
+                        </value>
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.TOTAL_C"/>
+                     </field>
+                     <?templateDesigner expand 0?>
+                     <bind match="dataRef" ref="$record.GT_TOTALS.DATA[*]"/>
+                     <keep intact="none"/>
+                     <border>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <edge presence="hidden"/>
+                        <corner/>
+                     </border>
+                  </subform>
+                  <keep intact="contentArea"/>
+                  <bind match="none"/>
+                  <?templateDesigner rowpattern first:1, next:1, firstcolor:f0f0f0, nextcolor:ffffff, apply:0?>
+                  <overflow leader="FinalTotals"/>
+                  <occur max="-1"/>
+                  <subform id="Intellipay_ID" layout="row" name="Intellipay">
+                     <assist role="TH"/>
+                     <field h="8.2065mm">
+                        <ui>
+                           <textEdit>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Courier New"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para vAlign="middle"/>
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.DOC_DATE"/>
+                     </field>
+                     <field colSpan="2">
+                        <ui>
+                           <textEdit multiLine="1">
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Courier New" weight="bold"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para vAlign="middle"/>
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.DESCR"/>
+                     </field>
+                     <field h="8.2065mm" locale="en_GB" minW="1mm">
+                        <ui>
+                           <numericEdit>
+                              <margin/>
+                           </numericEdit>
+                           <picture>num.currency{}</picture>
+                        </ui>
+                        <font typeface="Courier New"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="right" vAlign="middle"/>
+                        <value>
+                           <decimal fracDigits="-1"/>
+                        </value>
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.NET_A"/>
+                     </field>
+                     <field h="8.2065mm" locale="en_GB" minW="1mm">
+                        <ui>
+                           <numericEdit>
+                              <margin/>
+                           </numericEdit>
+                           <picture>num.currency{}</picture>
+                        </ui>
+                        <font typeface="Courier New"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="right" vAlign="middle"/>
+                        <value>
+                           <decimal fracDigits="-1"/>
+                        </value>
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.VAT_B"/>
+                     </field>
+                     <field h="8.2065mm" locale="en_GB" minW="1mm">
+                        <ui>
+                           <numericEdit>
+                              <margin/>
+                           </numericEdit>
+                           <picture>num.currency{}</picture>
+                        </ui>
+                        <font typeface="Courier New"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="right" vAlign="middle"/>
+                        <value>
+                           <decimal fracDigits="-1"/>
+                        </value>
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.TOTAL_C"/>
+                     </field>
+                     <?templateDesigner expand 0?>
+                     <bind match="dataRef" ref="$record.GT_TOTALS.DATA[*]"/>
+                     <keep intact="none"/>
+                     <border>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <edge presence="hidden"/>
+                        <corner/>
+                     </border>
+                  </subform>
+                  <subform id="Charity_ID" layout="row" name="Charity">
+                     <assist role="TH"/>
+                     <field h="8.2065mm">
+                        <ui>
+                           <textEdit>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Courier New"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para vAlign="middle"/>
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.DOC_DATE"/>
+                     </field>
+                     <field colSpan="2" h="8.2065mm">
+                        <ui>
+                           <textEdit multiLine="1">
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Courier New" weight="bold"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para vAlign="middle"/>
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.DESCR"/>
+                     </field>
+                     <field h="8.2065mm" locale="en_GB" minW="1mm">
+                        <ui>
+                           <numericEdit>
+                              <margin/>
+                           </numericEdit>
+                           <picture>num.currency{}</picture>
+                        </ui>
+                        <font typeface="Courier New"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="right" vAlign="middle"/>
+                        <value>
+                           <decimal fracDigits="-1"/>
+                        </value>
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.NET_A"/>
+                     </field>
+                     <field h="8.2065mm" locale="en_GB" minW="1mm">
+                        <ui>
+                           <numericEdit>
+                              <margin/>
+                           </numericEdit>
+                           <picture>num.currency{}</picture>
+                        </ui>
+                        <font typeface="Courier New"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="right" vAlign="middle"/>
+                        <value>
+                           <decimal fracDigits="-1"/>
+                        </value>
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.VAT_B"/>
+                     </field>
+                     <field h="8.2065mm" locale="en_GB" minW="1mm">
+                        <ui>
+                           <numericEdit>
+                              <margin/>
+                           </numericEdit>
+                           <picture>num.currency{}</picture>
+                        </ui>
+                        <font typeface="Courier New"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="right" vAlign="middle"/>
+                        <value>
+                           <decimal fracDigits="-1"/>
+                        </value>
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.TOTAL_C"/>
+                     </field>
+                     <bind match="dataRef" ref="$record.GT_TOTALS.DATA[*]"/>
+                     <?templateDesigner expand 0?>
+                     <keep intact="none"/>
+                     <border>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <edge presence="hidden"/>
+                        <corner/>
+                     </border>
+                  </subform>
+                  <subform id="FinalTotals_ID" layout="row" name="FinalTotals">
+                     <assist role="TH"/>
+                     <field h="7.2079mm">
+                        <ui>
+                           <textEdit>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Courier New"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para vAlign="middle"/>
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.DOC_DATE"/>
+                     </field>
+                     <field h="7.2079mm">
+                        <ui>
+                           <textEdit multiLine="1">
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Courier New" weight="bold"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para vAlign="middle"/>
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.DESCR"/>
+                     </field>
+                     <field h="7.2079mm">
+                        <ui>
+                           <textEdit>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Courier New" weight="bold"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para vAlign="middle"/>
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.OUR_REF"/>
+                     </field>
+                     <field h="7.2079mm" locale="en_GB" minW="1mm">
+                        <ui>
+                           <numericEdit>
+                              <margin/>
+                           </numericEdit>
+                           <picture>num.currency{}</picture>
+                        </ui>
+                        <font typeface="Courier New"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="right" vAlign="middle"/>
+                        <value>
+                           <decimal fracDigits="-1"/>
+                        </value>
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.NET_A"/>
+                     </field>
+                     <field h="7.2079mm" locale="en_GB" minW="1mm">
+                        <ui>
+                           <numericEdit>
+                              <margin/>
+                           </numericEdit>
+                           <picture>num.currency{}</picture>
+                        </ui>
+                        <font typeface="Courier New"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="right" vAlign="middle"/>
+                        <value>
+                           <decimal fracDigits="-1"/>
+                        </value>
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.VAT_B"/>
+                     </field>
+                     <field h="7.2079mm" locale="en_GB" minW="1mm">
+                        <ui>
+                           <numericEdit>
+                              <margin/>
+                           </numericEdit>
+                           <picture>num.currency{}</picture>
+                        </ui>
+                        <font typeface="Courier New"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para hAlign="right" vAlign="middle"/>
+                        <value>
+                           <decimal fracDigits="-1"/>
+                        </value>
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner presence="hidden" thickness="0.1778mm"/>
+                        </border>
+                        <bind match="dataRef" ref="$.TOTAL_C"/>
+                     </field>
+                     <bind match="dataRef" ref="$record.GT_TOTALS.DATA[*]"/>
+                     <?templateDesigner expand 0?>
+                     <keep intact="none"/>
+                  </subform>
+                  <?templateDesigner expand 1?></subform>
+               <?templateDesigner expand 1?></subform>
+            <?templateDesigner expand 1?></subform>
+         <?templateDesigner expand 1?></subform>
+      <desc>
+         <text name="department">Dev. Financials Operations</text>
+         <text name="description">Avisformular für die Geschäftskorrespondenz</text>
+         <text name="creator">Antje Fuchs</text>
+         <text name="title">Zahlungsavis</text>
+         <text name="version">1</text>
+      </desc>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Arial" 0 0 ISO-8859-1 4 52 13 00030006002900330037004400470048004A004C004F0057005B #FPTadegiltx?>
+      <?renderCache.subset "Courier New" 0 0 ISO-8859-1 4 104 26 00030011001D002400260028002F0031003200350036003700390044004600470048004A004C004F005000510052005500570058 .:ACELNORSTVacdegilmnortu?>
+      <?renderCache.subset "Courier New" 1 0 ISO-8859-1 4 112 28 0003001D0024002700290031003500370039003C00440045004600480049004C004F005000510052005300540055005600570058005A005C :ADFNRTVYabcefilmnopqrstuwy?></subform>
+   <?templateDesigner DefaultLanguage FormCalc?>
+   <?templateDesigner DefaultRunAt client?>
+   <?templateDesigner DefaultPreviewType print?>
+   <?templateDesigner DefaultIncludeXSLT 0?>
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-template/2.2/?>
+   <?templateDesigner Grid show:1, snap:0, units:17, color:c0c0c0, origin:(0,0), interval:(125000,125000), objsnap:0, guidesnap:0, pagecentersnap:0?>
+   <?templateDesigner FormTargetVersion 28?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
+   <?templateDesigner Zoom 114?></template>
+<config xmlns="http://www.xfa.org/schema/xci/2.8/">
+   <agent name="designer">
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+      <common>
+         <template>
+            <base>https://S4DEV.SAP.HOLMAN.COM:443/sap/bc/fp/form/layout/</base>
+         </template>
+      </common>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <pdf>
+         <!--  [0..n]  -->
+         <version>1.7</version>
+         <adobeExtensionLevel>3</adobeExtensionLevel>
+      </pdf>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+         </data>
+      </common>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+</config>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+   <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="data">
+      <data>
+         <GS_HEADER>
+            <LAUFD/>
+            <LAUFI/>
+            <BUKRS/>
+            <BELNR_PAY/>
+            <GJAHR_PAY/>
+            <PAY_DATE/>
+            <DOC_CURR/>
+            <COMP_VAT_NO/>
+            <VENDOR/>
+            <VENDOR_VAT/>
+            <VENDOR_BP/>
+            <ACCT_CLERK/>
+            <BANK_SORT/>
+            <BANK_ACCT/>
+            <TO_NAME1/>
+            <TO_STREET/>
+            <TO_CITY/>
+            <TO_POSTCODE/>
+            <FROM_NAME1/>
+            <FROM_STREET/>
+            <FROM_CITY/>
+            <FROM_POSTCODE/>
+            <FROM_COUNTRY/>
+            <PAY_TEXT1/>
+            <PAY_TEXT2/>
+            <TO_COUNTRY/>
+            <FROM_TEL/>
+            <FROM_EMAIL/>
+         </GS_HEADER>
+         <GV_FOOTER/>
+         <GT_ITEMS dd:minOccur="0">
+            <DATA dd:maxOccur="-1">
+               <BELNR/>
+               <GJAHR/>
+               <BUKRS/>
+               <LINE_TYPE/>
+               <DOC_DATE/>
+               <DESCR/>
+               <OUR_REF/>
+               <YOUR_REF/>
+               <NET_A/>
+               <VAT_B/>
+               <TOTAL_C/>
+               <WAERS/>
+            </DATA>
+         </GT_ITEMS>
+         <GV_TITLE/>
+         <GT_ES_LINES dd:minOccur="0">
+            <DATA dd:maxOccur="-1">
+               <BELNR/>
+               <GJAHR/>
+               <BUKRS/>
+               <LINE_TYPE/>
+               <DOC_DATE/>
+               <DESCR/>
+               <OUR_REF/>
+               <YOUR_REF/>
+               <NET_A/>
+               <VAT_B/>
+               <TOTAL_C/>
+               <WAERS/>
+            </DATA>
+         </GT_ES_LINES>
+         <GT_TOTALS dd:minOccur="0">
+            <DATA dd:maxOccur="-1">
+               <BELNR/>
+               <GJAHR/>
+               <BUKRS/>
+               <LINE_TYPE/>
+               <DOC_DATE/>
+               <DESCR/>
+               <OUR_REF/>
+               <YOUR_REF/>
+               <NET_A/>
+               <VAT_B/>
+               <TOTAL_C/>
+               <WAERS/>
+            </DATA>
+         </GT_TOTALS>
+      </data>
+   </dd:dataDescription>
+</xfa:datasets>
+<sourceSet xmlns="http://www.xfa.org/schema/xfa-source-set/2.8/">
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-source-set/1.0/?></sourceSet>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.8/">
+   <xsdConnection dataDescription="data" name="ZFI_F_UK_REMITTANCE_ADVICE">
+      <uri/>
+      <rootElement>data</rootElement>
+   </xsdConnection>
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-connection-set/2.1/?></connectionSet>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+   <locale desc="German (Germany)" name="de_DE">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>Januar</month>
+            <month>Februar</month>
+            <month>März</month>
+            <month>April</month>
+            <month>Mai</month>
+            <month>Juni</month>
+            <month>Juli</month>
+            <month>August</month>
+            <month>September</month>
+            <month>Oktober</month>
+            <month>November</month>
+            <month>Dezember</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Jan</month>
+            <month>Feb</month>
+            <month>Mrz</month>
+            <month>Apr</month>
+            <month>Mai</month>
+            <month>Jun</month>
+            <month>Jul</month>
+            <month>Aug</month>
+            <month>Sep</month>
+            <month>Okt</month>
+            <month>Nov</month>
+            <month>Dez</month>
+         </monthNames>
+         <dayNames>
+            <day>Sonntag</day>
+            <day>Montag</day>
+            <day>Dienstag</day>
+            <day>Mittwoch</day>
+            <day>Donnerstag</day>
+            <day>Freitag</day>
+            <day>Samstag</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>So</day>
+            <day>Mo</day>
+            <day>Di</day>
+            <day>Mi</day>
+            <day>Do</day>
+            <day>Fr</day>
+            <day>Sa</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>v. Chr.</era>
+            <era>n. Chr.</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE, D. MMMM YYYY</datePattern>
+         <datePattern name="long">D. MMMM YYYY</datePattern>
+         <datePattern name="med">DD.MM.YYYY</datePattern>
+         <datePattern name="short">DD.MM.YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">H.MM' Uhr 'Z</timePattern>
+         <timePattern name="long">HH:MM:SS Z</timePattern>
+         <timePattern name="med">HH:MM:SS</timePattern>
+         <timePattern name="short">HH:MM</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GuMtkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">z,zz9.99 $</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">,</numberSymbol>
+         <numberSymbol name="grouping">.</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">€</currencySymbol>
+         <currencySymbol name="isoname">EUR</currencySymbol>
+         <currencySymbol name="decimal">,</currencySymbol>
+      </currencySymbols>
+   </locale>
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-locale-set/2.1/?>
+   <locale desc="English (United Kingdom)" name="en_GB">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>January</month>
+            <month>February</month>
+            <month>March</month>
+            <month>April</month>
+            <month>May</month>
+            <month>June</month>
+            <month>July</month>
+            <month>August</month>
+            <month>September</month>
+            <month>October</month>
+            <month>November</month>
+            <month>December</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Jan</month>
+            <month>Feb</month>
+            <month>Mar</month>
+            <month>Apr</month>
+            <month>May</month>
+            <month>Jun</month>
+            <month>Jul</month>
+            <month>Aug</month>
+            <month>Sep</month>
+            <month>Oct</month>
+            <month>Nov</month>
+            <month>Dec</month>
+         </monthNames>
+         <dayNames>
+            <day>Sunday</day>
+            <day>Monday</day>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>
+            <day>Saturday</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>Sun</day>
+            <day>Mon</day>
+            <day>Tue</day>
+            <day>Wed</day>
+            <day>Thu</day>
+            <day>Fri</day>
+            <day>Sat</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>BC</era>
+            <era>AD</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE, D MMMM YYYY</datePattern>
+         <datePattern name="long">D MMMM YYYY</datePattern>
+         <datePattern name="med">D MMM YYYY</datePattern>
+         <datePattern name="short">DD/MM/YYYY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">HH:MM:SS Z</timePattern>
+         <timePattern name="long">HH:MM:SS Z</timePattern>
+         <timePattern name="med">HH:MM:SS</timePattern>
+         <timePattern name="short">HH:MM</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$z,zz9.99</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">£</currencySymbol>
+         <currencySymbol name="isoname">GBP</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+      <typefaces>
+         <typeface name="Myriad Pro"/>
+         <typeface name="Minion Pro"/>
+         <typeface name="Courier Std"/>
+         <typeface name="Adobe Pi Std"/>
+         <typeface name="Adobe Hebrew"/>
+         <typeface name="Adobe Arabic"/>
+         <typeface name="Adobe Thai"/>
+         <typeface name="Kozuka Gothic Pro-VI M"/>
+         <typeface name="Kozuka Mincho Pro-VI R"/>
+         <typeface name="Adobe Ming Std L"/>
+         <typeface name="Adobe Song Std L"/>
+         <typeface name="Adobe Myungjo Std M"/>
+         <typeface name="Adobe Devanagari"/>
+      </typefaces>
+   </locale>
+</localeSet>
+<PDFSecurity xmlns="http://ns.adobe.com/xtd/" accessibleContent="1" change="1" contentCopy="1" documentAssembly="1" formFieldFilling="1" metadata="1" modifyAnnots="1" print="1" printHighQuality="1"/>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.0-c000 79.cca54b0, 2022/11/26-09:29:55        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:pdfuaid="http://www.aiim.org/pdfua/ns/id/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
+         <xmp:MetadataDate>2026-03-17T11:53:52Z</xmp:MetadataDate>
+         <xmp:CreatorTool>Adobe LiveCycle Designer 11.0</xmp:CreatorTool>
+         <pdfuaid:part>1</pdfuaid:part>
+         <pdf:Producer>Adobe LiveCycle Designer 11.0</pdf:Producer>
+         <xmpMM:DocumentID>uuid:e05f4783-0e38-4811-a89c-491953b346ec</xmpMM:DocumentID>
+         <dc:description>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">Avisformular für die Geschäftskorrespondenz</rdf:li>
+            </rdf:Alt>
+         </dc:description>
+         <dc:creator>
+            <rdf:Seq>
+               <rdf:li>Antje Fuchs</rdf:li>
+            </rdf:Seq>
+         </dc:creator>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">Zahlungsavis</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+         <desc:department rdf:parseType="Resource">
+            <rdf:value>Dev. Financials Operations</rdf:value>
+            <desc:ref>/template/subform[1]</desc:ref>
+         </desc:department>
+         <desc:version rdf:parseType="Resource">
+            <rdf:value>1</rdf:value>
+            <desc:ref>/template/subform[1]</desc:ref>
+         </desc:version>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta></xdp:xdp>

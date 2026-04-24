@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_0C3E473FD318'
+
+extend view I_CNSLDTNGLAVGDAILYBAL with ZZ1_NEZY353L7RQSVIERXDSAIJ3KLE
+  
+{ 
+  _Extension.ZZ1_TRANSACTIONKEY_COB as ZZ1_TRANSACTIONKEY_COB
+}

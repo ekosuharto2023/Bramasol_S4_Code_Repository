@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_05C48ED3C8CA'
+
+extend view E_FINPLANNINGUPLOADITEM with ZZ1_36Q4ASAOKDVHAJIOY2NDAFLLSU
+  
+{ 
+  Persistence.ZZ1_PRICINGELEMENT_COB as ZZ1_PRICINGELEMENT_COB
+}

@@ -1,0 +1,11 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "I_ACCOUNTINGDOCUMENTTYPETEXT",
+      "I_GLACCOUNTTEXT",
+      "I_LEDGERTEXT",
+      "I_PRODUCTTEXT",
+      "R_CITITEMCLASSIFICATIONTP"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "I_LANGUAGE",
+      "ZFI_PAYMENT_TERM"
+    ],
+    "ASSOCIATED": [
+      "ZI_FI_PAYMENT_TERM_BC"
+    ]
+  }
+}

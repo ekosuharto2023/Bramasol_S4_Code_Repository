@@ -1,0 +1,8 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "E_FINSGLCNSLDTNADB",
+      "P_GLE_ADB_GR_FT_06"
+    ]
+  }
+}

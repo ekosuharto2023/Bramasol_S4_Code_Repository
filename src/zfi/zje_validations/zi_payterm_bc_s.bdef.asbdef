@@ -1,0 +1,79 @@
+managed with additional save implementation in class ZBP_I_FI_PAYMENT_TERM_DEF_S unique;
+strict;
+with draft;
+
+define behavior for ZI_PAYTERM_BC_S alias ZFI_PAYTERM_BC_S
+draft table ZFI_PAYMENT__D_S
+with unmanaged save
+lock master total etag LastChangedAtMax
+authorization master( global )
+
+{
+  field ( readonly )
+   SingletonID;
+
+
+  update;
+  create;
+  delete;
+
+  draft action ( features : instance ) Edit;
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Resume;
+  draft determine action Prepare {
+    validation ZFI_PAYMENT_TERM_BC ~ ValidateDataConsistency;
+  }
+  action ( features : instance ) SelectCustomizingTransptReq parameter D_SelectCustomizingTransptReqP result [1] $self;
+
+  association _ZFI_PAYMENT_TERM_BC { create ( features : instance ); with draft; }
+}
+
+define behavior for ZI_FI_PAYMENT_TERM_BC alias ZFI_PAYMENT_TERM_BC
+persistent table ZFI_PAYMENT_TERM
+draft table ZFI_PAYMENT_TE_D
+etag master LocalLastChangedAt
+lock dependent by _ZFI_PAYTERM_BC_S
+authorization dependent by _ZFI_PAYTERM_BC_S
+
+{
+  field ( mandatory : create )
+   Country,
+   DefaultTermsCode,
+   NewTerm;
+
+  field ( readonly )
+   SingletonID;
+//   LastChangedAt,
+//   LocalLastChangedAt,
+//   ConfigDeprecationCode;
+//
+//  field ( readonly : update )
+//   Country,
+//   DefaultTermsCode,
+//   NewTerm;
+
+
+  //create( features : global );
+  update( features : global );
+  delete( features : global );
+
+  factory action ( features : instance ) CopyZFI_PAYMENT_TERM_BC parameter ZD_CopyZfiPaymentTerms [1];
+  action ( features : instance ) Deprecate result [1] $self;
+  action ( features : instance ) Invalidate result [1] $self;
+
+  mapping for ZFI_PAYMENT_TERM
+  {
+    Country = COUNTRY;
+    DefaultTermsCode = DEFAULT_TERMS_CODE;
+    NewTerm = NEW_TERM;
+    ConfigDeprecationCode = CONFIGDEPRECATIONCODE;
+    LastChangedAt = LAST_CHANGED_AT;
+    LocalLastChangedAt = LOCAL_LAST_CHANGED_AT;
+  }
+
+  association _ZFI_PAYTERM_BC_S { with draft; }
+
+  validation ValidateTransportRequest on save ##NOT_ASSIGNED_TO_DETACT { create; update; delete; }
+  validation ValidateDataConsistency on save { create; update; }
+}

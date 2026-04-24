@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT> Supplier Inv Odata service FuncGrp</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZFI_SUPPL_INVTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZFI_SUPPL_INV</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZFI_COS_SUPPL_INV</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>FM to take SuplInv data and send GL/Tx/CustomFields data</SHORT_TEXT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>CT_GL</PARAMETER>
+       <TYP>ZFI_TT_SUPPLINV_GL</TYP>
+      </RSCHA>
+     </CHANGING>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR_IN_DOC</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>CT_GL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>COS GL &amp; Amount &amp; Custom Fields</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR_IN_DOC</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

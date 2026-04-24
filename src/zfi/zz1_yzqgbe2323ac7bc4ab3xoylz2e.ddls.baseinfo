@@ -1,0 +1,11 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "I_COSTCENTER",
+      "I_COSTCENTERTEXT",
+      "I_GLACCOUNTINCHARTOFACCOUNTS",
+      "I_GLACCOUNTTEXT",
+      "I_JOURNALENTRYITEMCUBE"
+    ]
+  }
+}

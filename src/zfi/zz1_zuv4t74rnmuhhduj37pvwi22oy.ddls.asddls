@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_BE7B1D004EB4'
+
+extend view I_REALTIMERPTDFINDATA with ZZ1_ZUV4T74RNMUHHDUJ37PVWI22OY
+  
+{ 
+  _Extension.ZZ1_PRICINGELEMENT_COB as ZZ1_PRICINGELEMENT_COB
+}

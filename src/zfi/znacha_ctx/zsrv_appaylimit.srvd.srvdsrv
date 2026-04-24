@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Devinition for AP Pay Limit'
+define service ZSRV_APPAYLIMIT {
+  expose ZI_APPAYLIMIT;
+}

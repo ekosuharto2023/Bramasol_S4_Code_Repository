@@ -1,0 +1,17 @@
+managed implementation in class zbp_i_fi_invoice_category unique;
+strict ( 2 );
+
+define behavior for ZI_FI_INVOICE_CATEGORY //alias <alias_name>
+persistent table zfi_inv_category
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+mapping for ZFI_INV_CATEGORY {
+InvoiceCategory = invoice_category;
+Description = description;
+  }
+}

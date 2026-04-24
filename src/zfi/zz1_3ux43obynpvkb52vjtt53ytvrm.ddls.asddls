@@ -1,0 +1,5 @@
+extend view entity C_CITITEMCLASSIFICATIONTP with 
+  
+{ 
+  item.ZZ1_TRANSACTIONKEY_COB as ZZ1_TRANSACTIONKEY_COB
+}

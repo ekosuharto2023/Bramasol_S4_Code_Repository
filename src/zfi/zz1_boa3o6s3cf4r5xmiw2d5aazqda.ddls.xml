@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DDLS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DDLS>
+    <DDLNAME>ZZ1_BOA3O6S3CF4R5XMIW2D5AAZQDA</DDLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <PARENTNAME>V_ACDOCT_EXT_DDL</PARENTNAME>
+    <DDTEXT>ZZ1_THIRDPARTYREF</DDTEXT>
+    <SOURCE_TYPE>E</SOURCE_TYPE>
+    <SOURCE_ORIGIN>6</SOURCE_ORIGIN>
+   </DDLS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

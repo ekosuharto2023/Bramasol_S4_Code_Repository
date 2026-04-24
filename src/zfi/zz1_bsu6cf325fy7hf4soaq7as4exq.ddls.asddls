@@ -1,0 +1,5 @@
+extend view entity R_CITITEMCLASSIFICATIONTP with 
+  
+{ 
+  _ExtensionJEI.ZZ1_PRODUCTCODE_COB as ZZ1_PRODUCTCODE_COB
+}

@@ -1,0 +1,5 @@
+CLASS zbp_i_fi_inv_pymt_run DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zi_fi_inv_pymt_run.
+ENDCLASS.
+
+CLASS zbp_i_fi_inv_pymt_run IMPLEMENTATION.
+ENDCLASS.

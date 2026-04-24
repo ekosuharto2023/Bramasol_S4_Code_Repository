@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_C01D6EDC25A1'
+
+extend view A_OPENINGBALANCE with ZZ1_VFT4TEF55R37TYF6TBGR5A2H6I
+  
+{ 
+  ZZ1_VEHICLENO_COB as ZZ1_VEHICLENO_COB
+}

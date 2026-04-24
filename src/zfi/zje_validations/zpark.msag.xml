@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZPARK</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Messages for Parked Document Reasons</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPARK</ARBGB>
+     <MSGNR>000</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPARK</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Validate Client Code</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPARK</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Invalid Client Code &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPARK</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Missing value in field/s &amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPARK</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Duplicate Entry</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPARK</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Invalid key combination &amp;1 &amp;2 &amp;3 in query &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPARK</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Custom Fields &amp;1 &amp;2 &amp;3 are empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPARK</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Product Code Missing &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPARK</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>ZZ1 input fields do not match customized rules in table ZFI_FIELD_RULES</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPARK</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Transaction Key Missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPARK</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Vendor Posting Block Enabled</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPARK</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Invoice Number Missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPARK</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>G/L Account &amp; does not allow posting of the document. Park only.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPARK</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>If Look Up Validated field is selected, ensure Required field is selected</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPARK</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Source Missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPARK</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Payment Method Does Not Match Vendor Master</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPARK</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Exception &amp;1 does not override rule &amp;2. Exception not needed. Pls check.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPARK</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>User cannot be deleted due to assigned workflows.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPARK</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Please remove user from workflow customization table &amp;1 before deletion</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPARK</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Integration document &amp;1 &amp;2 &amp;3 is not type &amp;4 and hence parked</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPARK</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Please maintain Invoice Category for CA/US in the document.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

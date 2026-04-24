@@ -1,0 +1,9 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "I_CHARTOFACCOUNTS",
+      "I_GLACCOUNTTEXT",
+      "SKA1"
+    ]
+  }
+}

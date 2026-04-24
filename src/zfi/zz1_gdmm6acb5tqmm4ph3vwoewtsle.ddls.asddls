@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_3244CCBE9C80'
+
+extend view C_GLACCOUNTBALANCEFLOW with ZZ1_GDMM6ACB5TQMM4PH3VWOEWTSLE
+  
+{ 
+  _Extension.ZZ1_TRANSACTIONKEY_COB as ZZ1_TRANSACTIONKEY_COB
+}

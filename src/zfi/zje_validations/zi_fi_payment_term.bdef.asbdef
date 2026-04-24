@@ -1,0 +1,25 @@
+managed implementation in class zbp_i_fi_payment_term unique;
+strict ( 2 );
+
+define behavior for ZI_FI_PAYMENT_TERM //alias <alias_name>
+persistent table zfi_payment_term
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+
+  mapping for zfi_payment_term {
+    Country = country;
+    DefaultTermsCode = default_terms_code;
+    NewTerm = new_term;
+  }
+  //Mark ALL CDS key fields as non-updatable
+  field ( readonly : update ) Country, DefaultTermsCode;
+    //Hard runtime enforcement with nice UI messages
+  validation validate_mandatory on save { create; field Country, NewTerm; }
+validation validate_fk on save { create; update; field Country, NewTerm; }
+
+}

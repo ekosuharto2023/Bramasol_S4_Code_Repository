@@ -1,0 +1,17 @@
+@Metadata.layer: #CUSTOMER
+
+annotate entity ZI_APPAYLIMIT
+    with
+
+{
+  /*@Consumption.defaultValue: '1710'*/
+  @Consumption.filter.selectionType: #SINGLE
+  @Consumption.valueHelpDefinition: [ { entity: { name: 'I_CompanyCodeVH', element: 'CompanyCode' } } ]
+  @UI.selectionField: [ { position: 10 } ]
+  CompanyCode;
+
+  @Consumption.filter.selectionType: #SINGLE
+  @Consumption.valueHelpDefinition: [ { entity: { name: 'I_PaymentMethodVH', element: 'PaymentMethod' } } ]
+  @UI.selectionField: [ { position: 20 } ]
+  PaymentMethod;
+}

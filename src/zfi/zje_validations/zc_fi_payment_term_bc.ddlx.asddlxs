@@ -1,0 +1,95 @@
+@Metadata.layer: #CUSTOMER
+@UI: {
+  headerInfo: {
+    typeName: 'ZFI_PAYMENT_TERM_BC', 
+    typeNamePlural: 'ZFI_PAYMENT_TERM_BCs', 
+    title: {
+      type: #STANDARD, 
+      label: 'Custom table for Payment Term BC', 
+      value: 'Country'
+    }
+  }
+}
+annotate view ZC_FI_PAYMENT_TERM_BC with
+{
+  @UI.hidden: true
+  ConfigDeprecationCode_Critlty;
+  
+  @UI.hidden: true
+  ConfigurationDeprecation_Text;
+  
+  @UI.identification: [ {
+    position: 1 
+  } ]
+  @UI.lineItem: [ {
+    position: 1 
+  }, 
+  {
+    type: #FOR_ACTION, 
+    dataAction: 'CopyZFI_PAYMENT_TERM_BC', 
+    label: 'Copy Selected Entry', 
+    invocationGrouping: #CHANGE_SET
+  } ]
+  @UI.facet: [ {
+    id: 'ZI_FI_PAYMENT_TERM_BC', 
+    purpose: #STANDARD, 
+    type: #IDENTIFICATION_REFERENCE, 
+    label: 'Custom table for Payment Term BC', 
+    position: 1 
+  } ]
+  Country;
+  
+  @UI.identification: [ {
+    position: 2 , 
+    label: 'DefaultTermsCode'
+  } ]
+  @UI.lineItem: [ {
+    position: 2 , 
+    label: 'DefaultTermsCode'
+  } ]
+  DefaultTermsCode;
+  
+  @UI.identification: [ {
+    position: 3 
+  } ]
+  @UI.lineItem: [ {
+    position: 3 
+  } ]
+  NewTerm;
+  
+  @UI.identification: [ {
+    position: 4 , 
+    criticality: 'ConfigDeprecationCode_Critlty'
+  }, 
+  {
+    type: #FOR_ACTION, 
+    dataAction: 'Deprecate', 
+    label: 'Deprecate'
+  }, 
+  {
+    type: #FOR_ACTION, 
+    dataAction: 'Invalidate', 
+    label: 'Invalidate'
+  } ]
+  @UI.textArrangement: #TEXT_ONLY
+  @UI.lineItem: [ {
+    position: 4 , 
+    criticality: 'ConfigDeprecationCode_Critlty'
+  }, 
+  {
+    type: #FOR_ACTION, 
+    dataAction: 'Deprecate', 
+    label: 'Deprecate Selected Entry'
+  }, 
+  {
+    type: #FOR_ACTION, 
+    dataAction: 'Invalidate', 
+    label: 'Invalidate Selected Entry'
+  } ]
+  ConfigDeprecationCode;
+  
+  @UI.identification: [ {
+    position: 5 
+  } ]
+  LastChangedAt;
+}

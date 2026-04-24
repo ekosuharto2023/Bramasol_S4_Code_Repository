@@ -1,0 +1,5 @@
+extend view entity E_JRNLENTRITMMNGJRNLENTRYDRAFT with 
+  
+{ 
+  Persistence.ZZ1_PRICINGELEMENT_COB as ZZ1_PRICINGELEMENT_COB
+}

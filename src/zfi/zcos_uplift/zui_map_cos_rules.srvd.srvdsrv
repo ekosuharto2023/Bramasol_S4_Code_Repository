@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition for Cost of Sales Mapping Rules'
+define service ZUI_MAP_COS_RULES {
+  expose ZI_FI_MAP_COS_RULES;
+}

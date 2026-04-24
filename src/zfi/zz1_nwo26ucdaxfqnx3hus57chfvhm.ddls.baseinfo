@@ -1,0 +1,7 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "FINS_PLAN_DELSC"
+    ]
+  }
+}

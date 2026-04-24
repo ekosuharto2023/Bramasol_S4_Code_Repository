@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_AC69E70FC26E'
+
+extend view C_GENERICPLANQ3001 with ZZ1_V2JOPHBYBNVORQ757JSWQE6DNY
+  
+{ 
+  ZZ1_CLIENTCODE_APC as ZZ1_CLIENTCODE_APC
+}

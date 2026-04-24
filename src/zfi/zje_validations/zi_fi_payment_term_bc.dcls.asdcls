@@ -1,0 +1,5 @@
+@MappingRole: true
+define role ZI_FI_PAYMENT_TERM_BC {
+  grant select on ZI_FI_PAYMENT_TERM_BC
+  where ( ) = ASPECT pfcg_auth ( 'S_TABU_NAM', ACTVT = '03', TABLE = 'ZI_FI_PAYMENT_TERM_BC' );
+}

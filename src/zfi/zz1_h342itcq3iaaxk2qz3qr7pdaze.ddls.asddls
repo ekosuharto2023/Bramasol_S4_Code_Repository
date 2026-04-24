@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_214E6FD59E3B'
+
+extend view FAC_DART_Z3_AR_OPENITEM with ZZ1_H342ITCQ3IAAXK2QZ3QR7PDAZE
+  
+{ 
+  _Extension.ZZ1_THIRDPARTYREF_COB as ZZ1_THIRDPARTYREF_COB
+}

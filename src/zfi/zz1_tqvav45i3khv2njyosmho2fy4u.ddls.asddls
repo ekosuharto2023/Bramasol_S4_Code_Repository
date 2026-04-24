@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_641F872EDC42'
+
+extend view I_COSTREVNREASSIGNMENTITEMTP with ZZ1_TQVAV45I3KHV2NJYOSMHO2FY4U
+  
+{ 
+  _Extension.ZZ1_HOLMANPO_COB as ZZ1_HOLMANPO_COB
+}

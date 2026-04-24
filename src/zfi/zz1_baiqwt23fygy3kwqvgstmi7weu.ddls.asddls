@@ -1,0 +1,8 @@
+@AbapCatalog.internal.setChange: 'FLDADD_NO_ASS_INFLUENCE'
+@AbapCatalog.sqlViewAppendName: 'ZZ1_33BF57BAF28B'
+
+extend view I_AVGDAILYBALKEYFIGCUBE with ZZ1_BAIQWT23FYGY3KWQVGSTMI7WEU
+  
+{ 
+  _Extension.ZZ1_CLIENTCODE_COB as ZZ1_CLIENTCODE_COB
+}
